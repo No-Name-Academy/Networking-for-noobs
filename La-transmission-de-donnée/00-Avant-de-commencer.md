@@ -9,7 +9,6 @@ Ainsi les protocoles de transmission de données, sont des protocoles extrememen
 
 Du binaire à l'octet, du simplex au full duplex, de manière syncrhone ou asyncrhone, les données transitent sur différentes couches, avec différents protocoles, mais doivent toujours respecter des normes.
 
-
 ### Qu'est ce qu'une donnée
 
 Une donnée, c'est l'information que l'on cherche à stocker, envoyer, recevoir, afficher, modifier. 

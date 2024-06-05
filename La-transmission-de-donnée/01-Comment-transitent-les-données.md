@@ -10,7 +10,7 @@ Afin de simplifier le concept, nous allons rester sur une transmission de donné
 
 Dans cet exemple basique, on lit l'octet de la droite vers la gauche, grace au même tableau de conversion que pour le calcul des adresses IPv4.
 
-En effet, c'est le sens naturel des données, car le bit de droit (bit de poids faible, 1 en décimal) est le premier qui arrive dans le temps, à l'inverse de celui de gauche (bit de poids fort, 128 en décimal).
+En effet, c'est le sens naturel des données, car le bit de droite (bit de poids faible, 1 en décimal) est le premier qui arrive dans le temps, à l'inverse de celui de gauche (bit de poids fort, 128 en décimal).
 
 ### Le masque, un notion utile aussi en transmission de donnée
 

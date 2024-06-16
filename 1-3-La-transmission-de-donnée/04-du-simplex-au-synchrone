@@ -1,0 +1,17 @@
+# La transmission de donnée
+
+## 04. Du simplex au synchrone
+
+### Mode de transmissions en fonction du sens des échanges.
+
+Selon le besoin, il existe plusieurs sens d'échanges, qui vont induire un des 3 modes de transmissions suivants:
+
+- Simplex
+- Half duplex
+- Full Duplex
+
+En réseau, ces trois notions sont extremements importantes, car bien que les technologies actuelles rendent leur utilisations automatiques, il y a bien négociation sur le mode employé, autrement les échanges ne peuvent aboutir.
+
+### Le mode Simplex (J'envoi simplement dans un sens)
+
+![](https://raw.githubusercontent.com/No-Name-Academy/Networking-for-noobs/main/La-transmission-de-donn%C3%A9e/Ressources-img/598692.jpg)

@@ -20,3 +20,7 @@ Le masque prend tout son sens lorsqu'il est exprimé en binaire et non en décim
 
 Ainsi, savoir lire une ip binaire a son importance ici.
 
+#### Comment fonctionne un masque.
+
+Images masque binaire.
+

@@ -20,6 +20,7 @@ Toutefois, le bits n'est pas un objet tangible, et nous devons toujours passer p
 ### En réseau, ou se situe-t-on?
 
 En réseau pur, la transmission de données se situe sur plusieurs couches, mais 2 sont plus concernées que d'autres.
+
 1. La couche physique
 En effet, la transmission de donnée commence par la couche physique, c'est là que l'on va utiliser le support physique (Le medium, ou média, comme une fibre optique, ou un cable cuivre ethernet) et qu'on va transmettre la donnée dans sa plus simple expression numérique, le bit
 

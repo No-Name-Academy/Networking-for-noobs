@@ -1,0 +1,46 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Étapes de traitement -->
+  <g transform="translate(50,50)">
+    <!-- Réception -->
+    <rect x="0" y="0" width="150" height="80" fill="#E6F3FF" stroke="#2196F3"/>
+    <text x="75" y="45" text-anchor="middle" fill="#333">Réception du paquet</text>
+    
+    <!-- Analyse -->
+    <rect x="200" y="0" width="150" height="80" fill="#E6FFE6" stroke="#4CAF50"/>
+    <text x="275" y="45" text-anchor="middle" fill="#333">Analyse de l'en-tête IP</text>
+    
+    <!-- Consultation -->
+    <rect x="400" y="0" width="150" height="80" fill="#FFE6E6" stroke="#F44336"/>
+    <text x="475" y="45" text-anchor="middle" fill="#333">Consultation table de routage</text>
+    
+    <!-- Transmission -->
+    <rect x="600" y="0" width="150" height="80" fill="#FFF3E0" stroke="#FF9800"/>
+    <text x="675" y="45" text-anchor="middle" fill="#333">Transmission</text>
+    
+    <!-- Flèches -->
+    <path d="M150,40 L200,40" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <path d="M350,40 L400,40" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <path d="M550,40 L600,40" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  </g>
+  
+  <!-- Détails du processus -->
+  <g transform="translate(50,200)">
+    <!-- Paquet entrant -->
+    <rect x="0" y="0" width="700" height="250" fill="#f5f5f5" stroke="#ddd"/>
+    <text x="20" y="30" fill="#333">Détails du traitement :</text>
+    
+    <!-- Contenu du paquet -->
+    <rect x="20" y="50" width="660" height="180" fill="white" stroke="#ddd"/>
+    <text x="40" y="80" fill="#666">1. Vérification de l'intégrité du paquet</text>
+    <text x="40" y="120" fill="#666">2. Extraction de l'adresse IP destination</text>
+    <text x="40" y="160" fill="#666">3. Recherche du meilleur chemin</text>
+    <text x="40" y="200" fill="#666">4. Mise à jour des champs nécessaires</text>
+  </g>
+  
+  <!-- Marqueur de flèche -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+</svg>

@@ -1,0 +1,30 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Routeur central -->
+  <rect x="300" y="150" width="200" height="100" fill="#E6FFE6" stroke="#4CAF50" stroke-width="2"/>
+  <text x="370" y="200" fill="#333" text-anchor="middle">Routeur</text>
+  
+  <!-- Interfaces -->
+  <rect x="280" y="170" width="20" height="20" fill="#2196F3"/>
+  <rect x="500" y="170" width="20" height="20" fill="#2196F3"/>
+  <rect x="380" y="130" width="20" height="20" fill="#2196F3"/>
+  <rect x="380" y="250" width="20" height="20" fill="#2196F3"/>
+  
+  <!-- Réseaux connectés -->
+  <circle cx="200" cy="180" r="60" fill="#FFE6E6" stroke="#F44336"/>
+  <text x="200" y="185" fill="#333" text-anchor="middle">Réseau A</text>
+  
+  <circle cx="600" cy="180" r="60" fill="#FFE6E6" stroke="#F44336"/>
+  <text x="600" y="185" fill="#333" text-anchor="middle">Réseau B</text>
+  
+  <circle cx="400" cy="80" r="60" fill="#FFE6E6" stroke="#F44336"/>
+  <text x="400" y="85" fill="#333" text-anchor="middle">Réseau C</text>
+  
+  <circle cx="400" cy="320" r="60" fill="#FFE6E6" stroke="#F44336"/>
+  <text x="400" y="325" fill="#333" text-anchor="middle">Réseau D</text>
+  
+  <!-- Connexions -->
+  <line x1="300" y1="180" x2="260" y2="180" stroke="#666" stroke-width="2"/>
+  <line x1="520" y1="180" x2="540" y2="180" stroke="#666" stroke-width="2"/>
+  <line x1="390" y1="150" x2="390" y2="140" stroke="#666" stroke-width="2"/>
+  <line x1="390" y1="270" x2="390" y2="260" stroke="#666" stroke-width="2"/>
+</svg>

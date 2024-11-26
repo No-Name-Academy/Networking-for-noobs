@@ -1,0 +1,42 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Machine A -->
+  <rect x="50" y="150" width="120" height="60" fill="#E6F3FF" stroke="#2196F3"/>
+  <text x="110" y="185" text-anchor="middle">Machine A</text>
+  <text x="110" y="200" text-anchor="middle" font-size="12">192.168.0.1</text>
+  
+  <!-- Routeur -->
+  <rect x="300" y="130" width="200" height="100" fill="#E6FFE6" stroke="#4CAF50"/>
+  <text x="400" y="170" text-anchor="middle">Routeur</text>
+  <text x="340" y="190" text-anchor="middle" font-size="12">192.168.0.254</text>
+  <text x="460" y="190" text-anchor="middle" font-size="12">10.0.0.254</text>
+  
+  <!-- Machine B -->
+  <rect x="630" y="150" width="120" height="60" fill="#FFE6E6" stroke="#F44336"/>
+  <text x="690" y="185" text-anchor="middle">Machine B</text>
+  <text x="690" y="200" text-anchor="middle" font-size="12">10.0.0.1</text>
+  
+  <!-- Réseaux -->
+  <text x="220" y="250" text-anchor="middle">Réseau 192.168.0.0/24</text>
+  <text x="580" y="250" text-anchor="middle">Réseau 10.0.0.0/24</text>
+  
+  <!-- Flèches et étapes -->
+  <path d="M170,180 L300,180" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M500,180 L630,180" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Étapes numérotées -->
+  <circle cx="235" y="160" r="15" fill="white" stroke="#333"/>
+  <text x="235" y="165" text-anchor="middle">1</text>
+  
+  <circle cx="400" y="100" r="15" fill="white" stroke="#333"/>
+  <text x="400" y="105" text-anchor="middle">2</text>
+  
+  <circle cx="565" y="160" r="15" fill="white" stroke="#333"/>
+  <text x="565" y="165" text-anchor="middle">3</text>
+  
+  <!-- Marqueur de flèche -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+</svg>

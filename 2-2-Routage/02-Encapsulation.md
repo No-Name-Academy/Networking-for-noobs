@@ -8,8 +8,8 @@ Pour comprendre comment les données transitent réellement sur le réseau, nous
 
 Voici une représentation visuelle du processus d'encapsulation :
 
-![Alt text](./02-001.svg)
-<img src="./02-001">
+![Alt text](https://raw.githubusercontent.com/No-Name-Academy/Networking-for-noobs/refs/heads/main/2-2-Routage/Sources/02-001.svg)
+<img src="https://raw.githubusercontent.com/No-Name-Academy/Networking-for-noobs/refs/heads/main/2-2-Routage/Sources/02-001.svg">
 
 L'encapsulation fonctionne comme un système d'enveloppes imbriquées :
 

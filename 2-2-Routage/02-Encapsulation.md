@@ -8,7 +8,6 @@ Pour comprendre comment les données transitent réellement sur le réseau, nous
 
 Voici une représentation visuelle du processus d'encapsulation :
 
-![Alt text](https://raw.githubusercontent.com/No-Name-Academy/Networking-for-noobs/refs/heads/main/2-2-Routage/Sources/02-001.svg)
 <img src="https://raw.githubusercontent.com/No-Name-Academy/Networking-for-noobs/refs/heads/main/2-2-Routage/Sources/02-001.svg">
 
 L'encapsulation fonctionne comme un système d'enveloppes imbriquées :
@@ -21,7 +20,7 @@ L'encapsulation fonctionne comme un système d'enveloppes imbriquées :
 
 Une trame Ethernet est plus complexe qu'elle n'y paraît. Voici sa structure détaillée :
 
-svg 02-002.svg
+<img src="https://raw.githubusercontent.com/No-Name-Academy/Networking-for-noobs/refs/heads/main/2-2-Routage/Sources/02-002.svg">
 
 Dans une trame Ethernet :
 
@@ -39,7 +38,7 @@ Dans une trame Ethernet :
 
 Wireshark est un outil essentiel pour visualiser concrètement l'encapsulation en action. Voyons comment une simple requête web se décompose à travers les différentes couches :
 
-svg 02-003.svg
+<img src="https://raw.githubusercontent.com/No-Name-Academy/Networking-for-noobs/refs/heads/main/2-2-Routage/Sources/02-003.svg">
 
 Lors de l'analyse d'une capture Wireshark, nous pouvons observer :
 
@@ -61,7 +60,7 @@ La décomposition en couches nous permet d'examiner chaque niveau de communicati
 
 Pour bien comprendre comment ces couches interagissent, observons le parcours d'une requête web :
 
-svg 02-004.svg
+<img src="https://raw.githubusercontent.com/No-Name-Academy/Networking-for-noobs/refs/heads/main/2-2-Routage/Sources/02-004.svg">
 
 Ce processus d'interaction entre les couches se déroule en plusieurs étapes :
 

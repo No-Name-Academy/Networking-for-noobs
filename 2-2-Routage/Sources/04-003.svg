@@ -1,0 +1,31 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Routeur 1 -->
+  <rect x="100" y="150" width="150" height="80" fill="#E6F3FF" stroke="#2196F3"/>
+  <text x="175" y="190" text-anchor="middle">Routeur 1</text>
+  
+  <!-- Routeur 2 -->
+  <rect x="550" y="150" width="150" height="80" fill="#E6F3FF" stroke="#2196F3"/>
+  <text x="625" y="190" text-anchor="middle">Routeur 2</text>
+  
+  <!-- Flèches d'échange -->
+  <path d="M250,170 C400,170 400,170 550,170" stroke="#4CAF50" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M550,210 C400,210 400,210 250,210" stroke="#4CAF50" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Messages -->
+  <text x="400" y="150" text-anchor="middle" fill="#333">"J'ai accès au réseau 192.168.1.0/24"</text>
+  <text x="400" y="240" text-anchor="middle" fill="#333">"Je connais le réseau 10.0.0.0/24"</text>
+  
+  <!-- Réseaux -->
+  <circle cx="100" cy="300" r="40" fill="#FFE6E6" stroke="#F44336"/>
+  <text x="100" y="305" text-anchor="middle" font-size="10">192.168.1.0/24</text>
+  
+  <circle cx="700" cy="300" r="40" fill="#FFE6E6" stroke="#F44336"/>
+  <text x="700" y="305" text-anchor="middle" font-size="10">10.0.0.0/24</text>
+  
+  <!-- Marqueur de flèche -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#4CAF50"/>
+    </marker>
+  </defs>
+</svg>

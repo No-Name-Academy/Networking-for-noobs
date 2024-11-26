@@ -1,0 +1,41 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Serveurs -->
+  <rect x="50" y="150" width="120" height="60" fill="#E6F3FF" stroke="#2196F3"/>
+  <text x="110" y="185" text-anchor="middle">Serveurs</text>
+  
+  <!-- Routeur principal -->
+  <rect x="300" y="100" width="120" height="60" fill="#4CAF50" stroke="#333"/>
+  <text x="360" y="135" text-anchor="middle">R1 Principal</text>
+  
+  <!-- Routeur backup -->
+  <rect x="300" y="250" width="120" height="60" fill="#FF9800" stroke="#333"/>
+  <text x="360" y="285" text-anchor="middle">R2 Backup</text>
+  
+  <!-- Internet -->
+  <circle cx="600" cy="180" r="80" fill="#FFE6E6" stroke="#F44336"/>
+  <text x="600" y="185" text-anchor="middle">Internet</text>
+  
+  <!-- Connexions -->
+  <path d="M170,180 L300,130" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M170,180 L300,280" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M420,130 L520,180" stroke="#4CAF50" stroke-width="3" marker-end="url(#arrowhead-active)"/>
+  <path d="M420,280 L520,180" stroke="#999" stroke-width="2" stroke-dasharray="5,5" marker-end="url(#arrowhead)"/>
+  
+  <!-- Status -->
+  <text x="450" y="120" fill="#4CAF50">Active</text>
+  <text x="450" y="270" fill="#999">Standby</text>
+  
+  <!-- VRRP info -->
+  <text x="240" y="200" fill="#333">VRRP</text>
+  <text x="240" y="220" fill="#666">VIP: 192.168.1.254</text>
+  
+  <!-- Marqueurs de flèche -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+    <marker id="arrowhead-active" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#4CAF50"/>
+    </marker>
+  </defs>
+</svg>

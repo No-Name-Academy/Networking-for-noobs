@@ -1,0 +1,34 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- PC A -->
+  <rect x="50" y="150" width="100" height="50" fill="#E6F3FF" stroke="#2196F3"/>
+  <text x="100" y="180" text-anchor="middle">PC A</text>
+  
+  <!-- Routeur 1 -->
+  <rect x="250" y="100" width="120" height="60" fill="#E6FFE6" stroke="#4CAF50"/>
+  <text x="310" y="135" text-anchor="middle">Routeur 1</text>
+  
+  <!-- Routeur 2 -->
+  <rect x="250" y="250" width="120" height="60" fill="#E6FFE6" stroke="#4CAF50"/>
+  <text x="310" y="285" text-anchor="middle">Routeur 2</text>
+  
+  <!-- PC B -->
+  <rect x="650" y="150" width="100" height="50" fill="#E6F3FF" stroke="#2196F3"/>
+  <text x="700" y="180" text-anchor="middle">PC B</text>
+  
+  <!-- Chemins -->
+  <path d="M150,175 L250,130" stroke="#F44336" stroke-width="2" marker-end="url(#arrowhead-red)"/>
+  <text x="180" y="140" fill="#F44336">Aller</text>
+  
+  <path d="M650,175 L370,280" stroke="#2196F3" stroke-width="2" marker-end="url(#arrowhead-blue)"/>
+  <text x="500" y="250" fill="#2196F3">Retour</text>
+  
+  <!-- Marqueurs de flèche -->
+  <defs>
+    <marker id="arrowhead-red" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#F44336"/>
+    </marker>
+    <marker id="arrowhead-blue" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2196F3"/>
+    </marker>
+  </defs>
+</svg>

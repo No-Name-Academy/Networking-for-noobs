@@ -1,0 +1,50 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Flux de décision -->
+  <rect x="300" y="50" width="200" height="60" fill="#E6F3FF" stroke="#2196F3"/>
+  <text x="400" y="85" text-anchor="middle">Arrivée du paquet</text>
+  
+  <!-- Premier niveau -->
+  <rect x="300" y="150" width="200" height="60" fill="#E6FFE6" stroke="#4CAF50"/>
+  <text x="400" y="175" text-anchor="middle">Recherche des</text>
+  <text x="400" y="195" text-anchor="middle">correspondances exactes</text>
+  
+  <!-- Deuxième niveau -->
+  <rect x="300" y="250" width="200" height="60" fill="#FFE6E6" stroke="#F44336"/>
+  <text x="400" y="275" text-anchor="middle">Recherche des</text>
+  <text x="400" y="295" text-anchor="middle">correspondances partielles</text>
+  
+  <!-- Troisième niveau -->
+  <rect x="300" y="350" width="200" height="60" fill="#FFF3E0" stroke="#FF9800"/>
+  <text x="400" y="375" text-anchor="middle">Application de la</text>
+  <text x="400" y="395" text-anchor="middle">route par défaut</text>
+  
+  <!-- Routes non trouvées -->
+  <rect x="300" y="450" width="200" height="60" fill="#FFEBEE" stroke="#D32F2F"/>
+  <text x="400" y="485" text-anchor="middle">Paquet rejeté</text>
+  
+  <!-- Flèches -->
+  <path d="M400,110 L400,150" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M400,210 L400,250" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M400,310 L400,350" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M400,410 L400,450" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Résultats positifs -->
+  <path d="M500,180 L600,180" stroke="#4CAF50" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <rect x="600" y="150" width="150" height="60" fill="#A5D6A7" stroke="#4CAF50"/>
+  <text x="675" y="185" text-anchor="middle">Route trouvée</text>
+  
+  <path d="M500,280 L600,280" stroke="#4CAF50" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <rect x="600" y="250" width="150" height="60" fill="#A5D6A7" stroke="#4CAF50"/>
+  <text x="675" y="285" text-anchor="middle">Route trouvée</text>
+  
+  <path d="M500,380 L600,380" stroke="#4CAF50" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <rect x="600" y="350" width="150" height="60" fill="#A5D6A7" stroke="#4CAF50"/>
+  <text x="675" y="385" text-anchor="middle">Route trouvée</text>
+  
+  <!-- Marqueur de flèche -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+</svg>

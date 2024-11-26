@@ -48,10 +48,10 @@ Cette analyse révèle que le masque de B n'est pas nécessaire pour la communic
 Le datagramme (ou paquet) IP organise les informations de manière structurée. Sa structure de base est la suivante :
 
 ```plaintext
-+----------------+----------------+------------------+
-|  En-tête IP    | Adresse IP    | Adresse IP      |
-|  (autres info) |    Source     |   Destination   |
-+----------------+----------------+------------------+
++----------------+----------------+------------------+------------------+
+|   En-tête IP   |   Adresse IP   |    Adresse IP    |     Données      |
+| (autres info)  |     Source     |   Destination    |                  |
++----------------+----------------+------------------+------------------+
 ```
 
 #### Particularité de l'en-tête IP

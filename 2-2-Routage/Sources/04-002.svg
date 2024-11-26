@@ -1,0 +1,25 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Routes directes -->
+  <rect x="50" y="50" width="200" height="100" fill="#E6F3FF" stroke="#2196F3"/>
+  <text x="150" y="85" text-anchor="middle" fill="#333">Routes directes</text>
+  <text x="150" y="105" text-anchor="middle" font-size="12">Réseaux directement</text>
+  <text x="150" y="125" text-anchor="middle" font-size="12">connectés</text>
+  
+  <!-- Routes statiques -->
+  <rect x="300" y="50" width="200" height="100" fill="#E6FFE6" stroke="#4CAF50"/>
+  <text x="400" y="85" text-anchor="middle" fill="#333">Routes statiques</text>
+  <text x="400" y="105" text-anchor="middle" font-size="12">Configurées</text>
+  <text x="400" y="125" text-anchor="middle" font-size="12">manuellement</text>
+  
+  <!-- Routes dynamiques -->
+  <rect x="550" y="50" width="200" height="100" fill="#FFE6E6" stroke="#F44336"/>
+  <text x="650" y="85" text-anchor="middle" fill="#333">Routes dynamiques</text>
+  <text x="650" y="105" text-anchor="middle" font-size="12">Apprises par</text>
+  <text x="650" y="125" text-anchor="middle" font-size="12">protocoles de routage</text>
+  
+  <!-- Route par défaut -->
+  <rect x="175" y="200" width="450" height="100" fill="#FFF3E0" stroke="#FF9800"/>
+  <text x="400" y="235" text-anchor="middle" fill="#333">Route par défaut</text>
+  <text x="400" y="255" text-anchor="middle" font-size="12">Utilisée quand aucune autre route ne correspond</text>
+  <text x="400" y="275" text-anchor="middle" font-size="12">Notation : 0.0.0.0/0</text>
+</svg>

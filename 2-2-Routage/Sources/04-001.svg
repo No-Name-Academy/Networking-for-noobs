@@ -1,0 +1,32 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Table principale -->
+  <rect x="50" y="50" width="700" height="300" fill="#f5f5f5" stroke="#333"/>
+  
+  <!-- En-tête -->
+  <rect x="50" y="50" width="700" height="50" fill="#E6F3FF" stroke="#2196F3"/>
+  <text x="400" y="80" text-anchor="middle" fill="#333" font-weight="bold">Table de routage</text>
+  
+  <!-- Colonnes -->
+  <line x1="50" y1="100" x2="750" y2="100" stroke="#333"/>
+  
+  <!-- Headers -->
+  <text x="120" y="130" fill="#333">Réseau destination</text>
+  <text x="300" y="130" fill="#333">Masque</text>
+  <text x="450" y="130" fill="#333">Passerelle</text>
+  <text x="600" y="130" fill="#333">Interface</text>
+  
+  <!-- Entrées -->
+  <text x="120" y="180" fill="#333">192.168.1.0</text>
+  <text x="300" y="180" fill="#333">/24</text>
+  <text x="450" y="180" fill="#333">Connecté</text>
+  <text x="600" y="180" fill="#333">eth0</text>
+  
+  <text x="120" y="230" fill="#333">10.0.0.0</text>
+  <text x="300" y="230" fill="#333">/24</text>
+  <text x="450" y="230" fill="#333">192.168.1.254</text>
+  <text x="600" y="230" fill="#333">eth1</text>
+  
+  <text x="120" y="280" fill="#333">0.0.0.0</text>
+  <text x="300" y="280" fill="#333">/0</text>
+  <text x="450" y="280" fill="#333">192.168.1.1</text>
+  <text x="600" y="280" fill="#333">eth0</text>

@@ -1,6 +1,6 @@
 # Matériel physique
 
-## 00. Avant propos sur le réseau.
+## 00. Avant propos sur le réseau
 
 Avant de plonger dans les aspects techniques des réseaux informatiques, il est essentiel de comprendre comment nous en sommes arrivés là. Cette histoire commence dans les années 1960, une période marquée par la guerre froide et une course technologique sans précédent.
 

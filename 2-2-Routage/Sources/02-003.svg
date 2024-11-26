@@ -1,0 +1,31 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Interface Wireshark -->
+  <rect width="800" height="400" fill="#f5f5f5"/>
+  
+  <!-- En-tête -->
+  <rect x="50" y="20" width="700" height="40" fill="#2196F3"/>
+  <text x="70" y="45" fill="white">Wireshark - Capture de paquets</text>
+  
+  <!-- Zone de capture -->
+  <g transform="translate(50,80)">
+    <!-- Frame -->
+    <rect x="0" y="0" width="700" height="60" fill="white" stroke="#ddd"/>
+    <text x="10" y="35" fill="#666">Frame 187: 145 bytes on wire</text>
+    
+    <!-- Ethernet -->
+    <rect x="20" y="70" width="680" height="60" fill="white" stroke="#ddd"/>
+    <text x="30" y="105" fill="#666">Ethernet II, Src: Apple_12:34:56 (00:11:22:33:44:55), Dst: Broadcast</text>
+    
+    <!-- IP -->
+    <rect x="40" y="140" width="660" height="60" fill="white" stroke="#ddd"/>
+    <text x="50" y="175" fill="#666">Internet Protocol, Src: 192.168.1.100, Dst: 192.168.1.1</text>
+    
+    <!-- TCP -->
+    <rect x="60" y="210" width="640" height="60" fill="white" stroke="#ddd"/>
+    <text x="70" y="245" fill="#666">Transmission Control Protocol, Src Port: 54321, Dst Port: 80</text>
+    
+    <!-- HTTP -->
+    <rect x="80" y="280" width="620" height="60" fill="white" stroke="#ddd"/>
+    <text x="90" y="315" fill="#666">Hypertext Transfer Protocol (HTTP GET request)</text>
+  </g>
+</svg>

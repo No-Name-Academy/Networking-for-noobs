@@ -1,0 +1,41 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fond -->
+  <rect width="800" height="400" fill="#ffffff"/>
+  
+  <!-- Couches -->
+  <g transform="translate(50,50)">
+    <!-- Couche 7 -->
+    <rect x="200" y="0" width="300" height="50" fill="#E6F3FF" stroke="#2196F3"/>
+    <text x="220" y="30" fill="#000">Données Application</text>
+    
+    <!-- Couche 4 -->
+    <rect x="150" y="80" width="400" height="50" fill="#FFE6E6" stroke="#F44336"/>
+    <rect x="200" y="80" width="300" height="50" fill="#E6F3FF" stroke="#2196F3"/>
+    <text x="160" y="110" fill="#000">En-tête Transport + Données</text>
+    
+    <!-- Couche 3 -->
+    <rect x="100" y="160" width="500" height="50" fill="#E6FFE6" stroke="#4CAF50"/>
+    <rect x="150" y="160" width="400" height="50" fill="#FFE6E6" stroke="#F44336"/>
+    <rect x="200" y="160" width="300" height="50" fill="#E6F3FF" stroke="#2196F3"/>
+    <text x="110" y="190" fill="#000">En-tête IP + Transport + Données</text>
+    
+    <!-- Couche 2 -->
+    <rect x="50" y="240" width="600" height="50" fill="#FFF3E0" stroke="#FF9800"/>
+    <rect x="100" y="240" width="500" height="50" fill="#E6FFE6" stroke="#4CAF50"/>
+    <rect x="150" y="240" width="400" height="50" fill="#FFE6E6" stroke="#F44336"/>
+    <rect x="200" y="240" width="300" height="50" fill="#E6F3FF" stroke="#2196F3"/>
+    <text x="60" y="270" fill="#000">Trame complète</text>
+    
+    <!-- Flèches -->
+    <path d="M350,60 L350,70" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <path d="M350,140 L350,150" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <path d="M350,220 L350,230" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <!-- Marqueur de flèche -->
+    <defs>
+      <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+        <polygon points="0 0, 10 3.5, 0 7" fill="#666"/>
+      </marker>
+    </defs>
+  </g>
+</svg>

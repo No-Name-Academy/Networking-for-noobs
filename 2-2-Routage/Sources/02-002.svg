@@ -1,0 +1,22 @@
+<svg viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Trame -->
+  <g transform="translate(50,50)">
+    <!-- Segments de la trame -->
+    <rect x="0" y="0" width="140" height="60" fill="#FFE6E6" stroke="#F44336"/>
+    <rect x="140" y="0" width="140" height="60" fill="#E6FFE6" stroke="#4CAF50"/>
+    <rect x="280" y="0" width="100" height="60" fill="#E6F3FF" stroke="#2196F3"/>
+    <rect x="380" y="0" width="250" height="60" fill="#FFF3E0" stroke="#FF9800"/>
+    <rect x="630" y="0" width="70" height="60" fill="#F3E5F5" stroke="#9C27B0"/>
+    
+    <!-- Labels -->
+    <text x="20" y="35" fill="#000">MAC DST</text>
+    <text x="160" y="35" fill="#000">MAC SRC</text>
+    <text x="290" y="35" fill="#000">Type</text>
+    <text x="460" y="35" fill="#000">Données</text>
+    <text x="645" y="35" fill="#000">CRC</text>
+    
+    <!-- Détail des données -->
+    <rect x="380" y="80" width="250" height="30" fill="#E6F3FF" opacity="0.6" stroke="#2196F3"/>
+    <text x="440" y="100" fill="#000" font-size="12">En-têtes + Données encapsulées</text>
+  </g>
+</svg>

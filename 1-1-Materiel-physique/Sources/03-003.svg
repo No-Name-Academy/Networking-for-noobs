@@ -1,0 +1,26 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Câble entier -->
+  <rect x="50" y="50" width="700" height="150" fill="#f5f5f5" rx="10"/>
+  
+  <!-- Paires torsadées -->
+  <g transform="translate(100,100)">
+    <!-- Paire 1 -->
+    <path d="M0,0 C20,-10 40,10 60,0 C80,-10 100,10 120,0" stroke="#FF4444" stroke-width="3" fill="none"/>
+    
+    <!-- Paire 2 -->
+    <path d="M0,30 C20,20 40,40 60,30 C80,20 100,40 120,30" stroke="#4444FF" stroke-width="3" fill="none"/>
+    
+    <!-- Paire 3 -->
+    <path d="M150,0 C170,-10 190,10 210,0 C230,-10 250,10 270,0" stroke="#44FF44" stroke-width="3" fill="none"/>
+    
+    <!-- Paire 4 -->
+    <path d="M150,30 C170,20 190,40 210,30 C230,20 250,40 270,30" stroke="#FFFF44" stroke-width="3" fill="none"/>
+  </g>
+  
+  <!-- Légende -->
+  <g transform="translate(100,250)">
+    <text x="0" y="0">Paire 1: Transmission</text>
+    <text x="0" y="30">Paire 2: Réception</text>
+    <text x="0" y="60">Paires 3/4: Utilisées pour le Gigabit</text>
+  </g>
+</svg>

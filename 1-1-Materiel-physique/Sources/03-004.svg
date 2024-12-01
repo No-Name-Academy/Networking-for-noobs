@@ -1,0 +1,30 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Vue en coupe de la fibre -->
+  <g transform="translate(50,50)">
+    <!-- Gaine externe -->
+    <rect x="0" y="100" width="700" height="100" fill="#444444"/>
+    
+    <!-- Gaine optique -->
+    <rect x="0" y="120" width="700" height="60" fill="#888888"/>
+    
+    <!-- Cœur -->
+    <rect x="0" y="140" width="700" height="20" fill="#FFFFFF"/>
+    
+    <!-- Rayon lumineux -->
+    <path d="M50,150 L650,150" stroke="#FFD700" stroke-width="2">
+      <animate attributeName="stroke-dashoffset" from="0" to="20" dur="1s" repeatCount="indefinite"/>
+    </path>
+    
+    <!-- Labels -->
+    <text x="720" y="150">Cœur</text>
+    <text x="720" y="180">Gaine optique</text>
+    <text x="720" y="210">Gaine externe</text>
+  </g>
+  
+  <!-- Propagation de la lumière -->
+  <g transform="translate(50,250)">
+    <path d="M100,50 Q400,0 700,50" stroke="#FFD700" stroke-width="2" fill="none">
+      <animate attributeName="stroke-dashoffset" from="0" to="20" dur="2s" repeatCount="indefinite"/>
+    </path>
+  </g>
+</svg>

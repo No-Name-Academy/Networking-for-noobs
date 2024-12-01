@@ -1,0 +1,29 @@
+<svg viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Vue en coupe du câble -->
+  <g transform="translate(50,50)">
+    <!-- Gaine externe -->
+    <circle cx="350" cy="100" r="80" fill="#333333"/>
+    
+    <!-- Blindage -->
+    <circle cx="350" cy="100" r="60" fill="#C0C0C0"/>
+    
+    <!-- Diélectrique -->
+    <circle cx="350" cy="100" r="40" fill="#FFFFFF"/>
+    
+    <!-- Conducteur central -->
+    <circle cx="350" cy="100" r="10" fill="#FFD700"/>
+    
+    <!-- Labels -->
+    <line x1="450" y1="100" x2="550" y2="50" stroke="#333" stroke-width="1"/>
+    <text x="560" y="50">Gaine externe</text>
+    
+    <line x1="450" y1="100" x2="550" y2="100" stroke="#333" stroke-width="1"/>
+    <text x="560" y="100">Blindage métallique</text>
+    
+    <line x1="450" y1="100" x2="550" y2="150" stroke="#333" stroke-width="1"/>
+    <text x="560" y="150">Diélectrique</text>
+    
+    <line x1="450" y1="100" x2="550" y2="200" stroke="#333" stroke-width="1"/>
+    <text x="560" y="200">Conducteur central</text>
+  </g>
+</svg>

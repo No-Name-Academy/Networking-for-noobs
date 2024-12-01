@@ -1,0 +1,20 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Point d'accès et zones de couverture -->
+  <g transform="translate(50,50)">
+    <!-- Point d'accès -->
+    <circle cx="350" cy="200" r="20" fill="#4CAF50"/>
+    <text x="350" y="205" text-anchor="middle" fill="white">AP</text>
+    
+    <!-- Zones de couverture -->
+    <circle cx="350" cy="200" r="150" fill="none" stroke="#4CAF50" stroke-width="2" opacity="0.3"/>
+    <circle cx="350" cy="200" r="100" fill="none" stroke="#4CAF50" stroke-width="2" opacity="0.5"/>
+    <circle cx="350" cy="200" r="50" fill="none" stroke="#4CAF50" stroke-width="2" opacity="0.8"/>
+    
+    <!-- Obstacles -->
+    <rect x="450" y="150" width="50" height="100" fill="#666"/>
+    <text x="475" y="280" text-anchor="middle" font-size="12">Mur</text>
+    
+    <rect x="250" y="300" width="100" height="20" fill="#666"/>
+    <text x="300" y="340" text-anchor="middle" font-size="12">Métal</text>
+  </g>
+</svg>

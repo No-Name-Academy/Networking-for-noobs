@@ -1,0 +1,44 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Modèle OSI complet -->
+  <g transform="translate(50,50)">
+    <!-- Application -->
+    <rect x="200" y="0" width="400" height="50" fill="#E6F3FF" stroke="#2196F3"/>
+    <text x="400" y="30" text-anchor="middle">7. Application</text>
+    
+    <!-- Présentation -->
+    <rect x="200" y="50" width="400" height="50" fill="#E6F3FF" stroke="#2196F3" fill-opacity="0.9"/>
+    <text x="400" y="80" text-anchor="middle">6. Présentation</text>
+    
+    <!-- Session -->
+    <rect x="200" y="100" width="400" height="50" fill="#E6F3FF" stroke="#2196F3" fill-opacity="0.8"/>
+    <text x="400" y="130" text-anchor="middle">5. Session</text>
+    
+    <!-- Transport -->
+    <rect x="200" y="150" width="400" height="50" fill="#E6F3FF" stroke="#2196F3" fill-opacity="0.7"/>
+    <text x="400" y="180" text-anchor="middle">4. Transport</text>
+    
+    <!-- Réseau -->
+    <rect x="200" y="200" width="400" height="50" fill="#E6F3FF" stroke="#2196F3" fill-opacity="0.6"/>
+    <text x="400" y="230" text-anchor="middle">3. Réseau</text>
+    
+    <!-- Liaison -->
+    <rect x="200" y="250" width="400" height="50" fill="#E6F3FF" stroke="#2196F3" fill-opacity="0.5"/>
+    <text x="400" y="280" text-anchor="middle">2. Liaison de données</text>
+    
+    <!-- Physique (mise en évidence) -->
+    <rect x="200" y="300" width="400" height="50" fill="#FF4444" stroke="#CC0000"/>
+    <text x="400" y="330" text-anchor="middle" fill="white">1. Physique</text>
+    
+    <!-- Flèche indiquant le flux de données -->
+    <path d="M150,175 L180,175" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <text x="120" y="180" text-anchor="middle" font-size="12">Flux de</text>
+    <text x="120" y="195" text-anchor="middle" font-size="12">données</text>
+  </g>
+  
+  <!-- Marqueur de flèche -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+</svg>

@@ -87,7 +87,6 @@ Les catégories de paires torsadées se sont succédé, chacune apportant des am
    - Blindage renforcé
    - Utilisée dans les centres de données
 
-<img src="https://raw.githubusercontent.com/No-Name-Academy/Networking-for-noobs/refs/heads/main/1-1-Materiel-physique/Sources/03-003.svg">
 
 ## 3.3 La fibre optique : la révolution optique
 
@@ -161,8 +160,6 @@ Mais elle comporte aussi quelques contraintes :
 ## 3.4 Les technologies sans fil : la mobilité avant tout
 
 Les technologies sans fil ont révolutionné notre façon d'utiliser les réseaux en supprimant la contrainte des câbles. Elles utilisent les ondes électromagnétiques pour transporter l'information à travers l'air.
-
-<img src="https://raw.githubusercontent.com/No-Name-Academy/Networking-for-noobs/refs/heads/main/1-1-Materiel-physique/Sources/03-005.svg">
 
 ### Les fondamentaux de la transmission sans fil
 

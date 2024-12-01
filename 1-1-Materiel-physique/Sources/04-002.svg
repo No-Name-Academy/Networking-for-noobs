@@ -1,0 +1,20 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Graphique de performance -->
+  <g transform="translate(50,50)">
+    <!-- Débit -->
+    <rect x="50" y="50" width="150" height="200" fill="#4CAF50" opacity="0.7"/>
+    <text x="125" y="270" text-anchor="middle">Débit</text>
+    
+    <!-- Latence -->
+    <rect x="250" y="100" width="150" height="150" fill="#2196F3" opacity="0.7"/>
+    <text x="325" y="270" text-anchor="middle">Latence</text>
+    
+    <!-- Gigue -->
+    <rect x="450" y="150" width="150" height="100" fill="#FF9800" opacity="0.7"/>
+    <text x="525" y="270" text-anchor="middle">Gigue</text>
+    
+    <!-- Échelle -->
+    <line x1="0" y1="250" x2="650" y2="250" stroke="#333" stroke-width="1"/>
+    <line x1="50" y1="50" x2="50" y2="250" stroke="#333" stroke-width="1"/>
+  </g>
+</svg>

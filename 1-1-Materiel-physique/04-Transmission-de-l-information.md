@@ -76,43 +76,7 @@ La transmission de données numériques dans le monde réel fait face à de nomb
 
 ### Les types de perturbations fondamentales
 
-```svg
-<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
-  <!-- Signal idéal -->
-  <g transform="translate(50,50)">
-    <text x="0" y="0">Signal idéal</text>
-    <path d="M0,30 L50,30 L50,80 L100,80 L100,30 L150,30" 
-          stroke="#4CAF50" 
-          stroke-width="2" 
-          fill="none"/>
-  </g>
-  
-  <!-- Atténuation -->
-  <g transform="translate(50,150)">
-    <text x="0" y="0">Atténuation</text>
-    <path d="M0,30 L50,40 L50,70 L100,65 L100,45 L150,50" 
-          stroke="#F44336" 
-          stroke-width="2" 
-          fill="none"/>
-  </g>
-  
-  <!-- Diaphonie -->
-  <g transform="translate(50,250)">
-    <text x="0" y="0">Diaphonie</text>
-    <path d="M0,30 L50,30 L50,80 L100,80 L100,30 L150,30" 
-          stroke="#2196F3" 
-          stroke-width="2" 
-          fill="none"/>
-    <path d="M0,30 L150,30" 
-          stroke="#FF9800" 
-          stroke-width="1" 
-          stroke-dasharray="5,5"
-          opacity="0.5"
-          fill="none"/>
-  </g>
-</svg>
-
-```
+<img src="https://raw.githubusercontent.com/No-Name-Academy/Networking-for-noobs/refs/heads/main/1-1-Materiel-physique/Sources/04-001.svg">
 
 L'atténuation représente le premier défi majeur de toute transmission. Imaginez une voix qui s'affaiblit avec la distance : c'est exactement ce qui se passe avec nos signaux numériques. Plus le signal parcourt une longue distance, plus il perd en puissance. Cette perte n'est pas uniforme : certaines fréquences sont plus affectées que d'autres, ce qui peut déformer le signal d'origine. Pour combattre ce phénomène, les réseaux modernes utilisent des amplificateurs ou des répéteurs, stratégiquement placés le long du parcours de transmission. Ces dispositifs permettent de régénérer le signal avant qu'il ne devienne trop faible pour être correctement interprété.
 
@@ -130,29 +94,7 @@ Le contrôle d'erreur joue également un rôle crucial. Les systèmes modernes n
 
 En matière de réseaux, la performance n'est pas qu'une question de vitesse. Elle englobe plusieurs aspects qui, ensemble, déterminent la qualité globale d'une transmission.
 
-```svg
-<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
-  <!-- Graphique de performance -->
-  <g transform="translate(50,50)">
-    <!-- Débit -->
-    <rect x="50" y="50" width="150" height="200" fill="#4CAF50" opacity="0.7"/>
-    <text x="125" y="270" text-anchor="middle">Débit</text>
-    
-    <!-- Latence -->
-    <rect x="250" y="100" width="150" height="150" fill="#2196F3" opacity="0.7"/>
-    <text x="325" y="270" text-anchor="middle">Latence</text>
-    
-    <!-- Gigue -->
-    <rect x="450" y="150" width="150" height="100" fill="#FF9800" opacity="0.7"/>
-    <text x="525" y="270" text-anchor="middle">Gigue</text>
-    
-    <!-- Échelle -->
-    <line x1="0" y1="250" x2="650" y2="250" stroke="#333" stroke-width="1"/>
-    <line x1="50" y1="50" x2="50" y2="250" stroke="#333" stroke-width="1"/>
-  </g>
-</svg>
-
-```
+<img src="https://raw.githubusercontent.com/No-Name-Academy/Networking-for-noobs/refs/heads/main/1-1-Materiel-physique/Sources/04-002.svg">
 
 Le débit représente la quantité d'informations pouvant transiter par unité de temps. C'est comme le débit d'eau dans un tuyau : plus le tuyau est large, plus le débit potentiel est important. Cependant, le débit réel dépend de nombreux facteurs : la qualité du support de transmission, les équipements utilisés, et même la distance à parcourir. Un câble en fibre optique moderne peut atteindre des débits de plusieurs térabits par seconde, tandis qu'une connexion sans fil sera généralement plus modeste.
 

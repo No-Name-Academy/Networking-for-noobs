@@ -1,0 +1,26 @@
+<svg viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Source -->
+  <rect x="50" y="100" width="100" height="60" fill="#E6F3FF" stroke="#2196F3"/>
+  <text x="100" y="135" text-anchor="middle">Source</text>
+  
+  <!-- Routeurs -->
+  <rect x="250" y="100" width="80" height="60" fill="#4CAF50" stroke="#333"/>
+  <text x="290" y="135" text-anchor="middle">R1</text>
+  
+  <rect x="450" y="100" width="80" height="60" fill="#4CAF50" stroke="#333"/>
+  <text x="490" y="135" text-anchor="middle">R2</text>
+  
+  <!-- Destination -->
+  <rect x="650" y="100" width="100" height="60" fill="#FFE6E6" stroke="#F44336"/>
+  <text x="700" y="135" text-anchor="middle">Destination</text>
+  
+  <!-- Paquet en mouvement -->
+  <circle cx="175" cy="130" r="10" fill="#FFD700">
+    <animate attributeName="cx" values="175;375;575;700" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Connexions -->
+  <line x1="150" y1="130" x2="250" y2="130" stroke="#333" stroke-width="2"/>
+  <line x1="330" y1="130" x2="450" y2="130" stroke="#333" stroke-width="2"/>
+  <line x1="530" y1="130" x2="650" y2="130" stroke="#333" stroke-width="2"/>
+</svg>

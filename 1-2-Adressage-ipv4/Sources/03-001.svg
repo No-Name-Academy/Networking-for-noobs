@@ -1,0 +1,28 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Internet (WAN) -->
+  <circle cx="400" cy="100" r="80" fill="#E6F3FF" stroke="#2196F3"/>
+  <text x="400" y="100" text-anchor="middle">Internet (WAN)</text>
+  <text x="400" y="120" text-anchor="middle" font-size="12">IPs Publiques</text>
+  
+  <!-- Routeur -->
+  <rect x="350" y="200" width="100" height="60" fill="#4CAF50" stroke="#333"/>
+  <text x="400" y="235" text-anchor="middle">Routeur</text>
+  
+  <!-- LANs -->
+  <g transform="translate(100,300)">
+    <rect width="200" height="100" fill="#FFE6E6" stroke="#F44336"/>
+    <text x="100" y="40" text-anchor="middle">LAN Privé 1</text>
+    <text x="100" y="60" text-anchor="middle" font-size="12">192.168.1.0/24</text>
+  </g>
+  
+  <g transform="translate(500,300)">
+    <rect width="200" height="100" fill="#FFE6E6" stroke="#F44336"/>
+    <text x="100" y="40" text-anchor="middle">LAN Privé 2</text>
+    <text x="100" y="60" text-anchor="middle" font-size="12">10.0.0.0/8</text>
+  </g>
+  
+  <!-- Connexions -->
+  <line x1="400" y1="180" x2="400" y2="200" stroke="#333" stroke-width="2"/>
+  <path d="M400,260 L200,300" stroke="#333" stroke-width="2"/>
+  <path d="M400,260 L600,300" stroke="#333" stroke-width="2"/>
+</svg>

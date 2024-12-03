@@ -1,0 +1,28 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Notation décimale -->
+  <g transform="translate(50,50)">
+    <rect x="0" y="0" width="160" height="60" fill="#E6F3FF" stroke="#2196F3"/>
+    <rect x="160" y="0" width="160" height="60" fill="#E6FFE6" stroke="#4CAF50"/>
+    <rect x="320" y="0" width="160" height="60" fill="#FFE6E6" stroke="#F44336"/>
+    <rect x="480" y="0" width="160" height="60" fill="#FFF3E0" stroke="#FF9800"/>
+    
+    <text x="80" y="35" text-anchor="middle">192</text>
+    <text x="240" y="35" text-anchor="middle">168</text>
+    <text x="400" y="35" text-anchor="middle">1</text>
+    <text x="560" y="35" text-anchor="middle">10</text>
+    
+    <!-- Notation binaire -->
+    <text x="80" y="90" text-anchor="middle" font-size="12">11000000</text>
+    <text x="240" y="90" text-anchor="middle" font-size="12">10101000</text>
+    <text x="400" y="90" text-anchor="middle" font-size="12">00000001</text>
+    <text x="560" y="90" text-anchor="middle" font-size="12">00001010</text>
+  </g>
+  
+  <!-- Explications -->
+  <g transform="translate(50,200)">
+    <text x="0" y="0" font-weight="bold">Structure :</text>
+    <text x="0" y="30">• 4 octets (32 bits)</text>
+    <text x="0" y="60">• Valeurs de 0 à 255 par octet</text>
+    <text x="0" y="90">• Séparés par des points</text>
+  </g>
+</svg>

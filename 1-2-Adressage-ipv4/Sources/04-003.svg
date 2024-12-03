@@ -1,0 +1,33 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Client -->
+  <rect x="50" y="150" width="120" height="60" fill="#E6F3FF" stroke="#2196F3"/>
+  <text x="110" y="185" text-anchor="middle">Client</text>
+  
+  <!-- DNS Local -->
+  <rect x="300" y="150" width="120" height="60" fill="#E6FFE6" stroke="#4CAF50"/>
+  <text x="360" y="185" text-anchor="middle">DNS Local</text>
+  
+  <!-- DNS Internet -->
+  <rect x="550" y="150" width="120" height="60" fill="#FFE6E6" stroke="#F44336"/>
+  <text x="610" y="185" text-anchor="middle">DNS Internet</text>
+  
+  <!-- Requêtes -->
+  <path d="M170,180 L300,180" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="235" y="160" font-size="12">1. www.example.com ?</text>
+  
+  <path d="M420,180 L550,180" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="485" y="160" font-size="12">2. Recherche</text>
+  
+  <path d="M550,200 L420,200" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="485" y="220" font-size="12">3. 93.184.216.34</text>
+  
+  <path d="M300,200 L170,200" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="235" y="220" font-size="12">4. 93.184.216.34</text>
+  
+  <!-- Marqueur de flèche -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+</svg>

@@ -1,0 +1,21 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gateway -->
+  <rect x="50" y="50" width="300" height="100" fill="#FFF3E0" stroke="#FF9800"/>
+  <text x="200" y="85" text-anchor="middle">Passerelle (Gateway)</text>
+  <text x="200" y="105" text-anchor="middle" font-size="12">192.168.1.254</text>
+  <text x="200" y="125" text-anchor="middle" font-size="10">Route vers les autres réseaux</text>
+  
+  <!-- DNS -->
+  <rect x="450" y="50" width="300" height="100" fill="#E1BEE7" stroke="#9C27B0"/>
+  <text x="600" y="85" text-anchor="middle">Serveur DNS</text>
+  <text x="600" y="105" text-anchor="middle" font-size="12">192.168.1.253</text>
+  <text x="600" y="125" text-anchor="middle" font-size="10">Résolution des noms de domaine</text>
+  
+  <!-- Internet -->
+  <circle cx="400" cy="250" r="50" fill="#E6F3FF" stroke="#2196F3"/>
+  <text x="400" y="255" text-anchor="middle">Internet</text>
+  
+  <!-- Connexions -->
+  <path d="M200,150 L400,200" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M600,150 L400,200" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+</svg>

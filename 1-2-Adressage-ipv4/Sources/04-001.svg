@@ -1,0 +1,24 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Réseau principal -->
+  <rect x="50" y="50" width="700" height="300" fill="#f5f5f5" stroke="#ddd"/>
+  <text x="400" y="80" text-anchor="middle" font-weight="bold">Réseau 192.168.1.0/24</text>
+  
+  <!-- Adresse réseau -->
+  <rect x="100" y="100" width="200" height="80" fill="#E6F3FF" stroke="#2196F3"/>
+  <text x="200" y="130" text-anchor="middle">Adresse réseau</text>
+  <text x="200" y="150" text-anchor="middle" font-size="12">192.168.1.0</text>
+  
+  <!-- Broadcast -->
+  <rect x="500" y="100" width="200" height="80" fill="#FFE6E6" stroke="#F44336"/>
+  <text x="600" y="130" text-anchor="middle">Broadcast</text>
+  <text x="600" y="150" text-anchor="middle" font-size="12">192.168.1.255</text>
+  
+  <!-- Plage d'hôtes -->
+  <rect x="100" y="220" width="600" height="80" fill="#E6FFE6" stroke="#4CAF50"/>
+  <text x="400" y="250" text-anchor="middle">Plage d'adresses utilisables</text>
+  <text x="400" y="270" text-anchor="middle" font-size="12">192.168.1.1 - 192.168.1.254</text>
+  
+  <!-- Flèches -->
+  <path d="M200,180 L200,220" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M600,180 L600,220" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+</svg>

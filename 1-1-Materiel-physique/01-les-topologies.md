@@ -1,8 +1,6 @@
-# Matériel physique
+# 1-1 Matériel physique
 
 ## 01. Les topologies réseau
-
-Avant de plonger dans les aspects techniques des réseaux informatiques, il est essentiel de comprendre comment nous en sommes arrivés là. Cette histoire commence dans les années 1960, une période marquée par la guerre froide et une course technologique sans précédent.
 
 ### 01.1 Introduction aux topologies de base
 

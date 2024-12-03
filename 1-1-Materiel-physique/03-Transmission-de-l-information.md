@@ -1,6 +1,6 @@
-# 4. La transmission de l'information
+# 3. La transmission de l'information
 
-## 4.1 Principes de base de la transmission des signaux
+## 3.1 Principes de base de la transmission des signaux
 
 La transmission des données numériques n'est pas aussi simple qu'il n'y paraît. Ce que nous percevons comme des "0" et des "1" doit être converti en signaux physiques qui peuvent voyager à travers différents supports de transmission.
 
@@ -70,7 +70,7 @@ Il existe plusieurs façons de coder l'information pour la rendre plus fiable lo
      * Plus complexe à décoder
      * Nécessite une électronique plus sophistiquée
 
-## 4.2 Gestion des perturbations et qualité du signal
+## 3.2 Gestion des perturbations et qualité du signal
 
 La transmission de données numériques dans le monde réel fait face à de nombreux défis. Même le meilleur système de transmission doit composer avec différentes formes de perturbations qui peuvent dégrader la qualité du signal.
 
@@ -90,7 +90,7 @@ Face à ces défis, les technologies modernes de transmission ont développé de
 
 Le contrôle d'erreur joue également un rôle crucial. Les systèmes modernes ne se contentent pas de détecter les erreurs : ils peuvent souvent les corriger à la volée. Quand une correction directe n'est pas possible, des mécanismes de retransmission automatique entrent en jeu, garantissant l'intégrité des données même dans des conditions difficiles.
 
-# 4.3 Performances et mesure de la qualité de transmission
+# 3.3 Performances et mesure de la qualité de transmission
 
 En matière de réseaux, la performance n'est pas qu'une question de vitesse. Elle englobe plusieurs aspects qui, ensemble, déterminent la qualité globale d'une transmission.
 

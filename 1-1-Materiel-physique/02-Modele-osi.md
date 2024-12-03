@@ -1,6 +1,6 @@
-# 3. La couche physique du modèle OSI
+# 2. La couche physique du modèle OSI
 
-## 3.1 Introduction au modèle OSI et la couche physique
+## 2.1 Introduction au modèle OSI et la couche physique
 
 La couche physique constitue le fondement même de toute communication réseau. C'est la première couche du modèle OSI, qui en compte sept au total. Pour bien comprendre son rôle, visualisons d'abord sa place dans l'architecture globale.
 
@@ -34,7 +34,7 @@ La couche physique transforme les données numériques en signaux qui peuvent ê
    - Différentes techniques de modulation
    - Diverses puissances d'émission
 
-## 3.2 Les supports de transmission physiques
+## 2.2 Les supports de transmission physiques
 
 L'évolution des supports de transmission physiques reflète l'histoire des réseaux informatiques. Chaque type de support répond à des besoins spécifiques et présente ses propres caractéristiques en termes de performance, de coût et de facilité d'installation.
 
@@ -88,7 +88,7 @@ Les catégories de paires torsadées se sont succédé, chacune apportant des am
    - Utilisée dans les centres de données
 
 
-## 3.3 La fibre optique : la révolution optique
+## 2.3 La fibre optique : la révolution optique
 
 La fibre optique représente une avancée majeure dans les technologies de transmission, utilisant la lumière plutôt que l'électricité pour transporter les données. Cette technologie a révolutionné les télécommunications en permettant des débits jusqu'alors inimaginables sur de très longues distances.
 
@@ -157,7 +157,7 @@ Mais elle comporte aussi quelques contraintes :
 - Fragilité relative nécessitant des précautions
 - Équipements actifs plus onéreux
 
-## 3.4 Les technologies sans fil : la mobilité avant tout
+## 2.4 Les technologies sans fil : la mobilité avant tout
 
 Les technologies sans fil ont révolutionné notre façon d'utiliser les réseaux en supprimant la contrainte des câbles. Elles utilisent les ondes électromagnétiques pour transporter l'information à travers l'air.
 
@@ -209,8 +209,6 @@ Le Wi-Fi est devenu incontournable dans nos vies quotidiennes. Son évolution mo
   * OFDMA (Orthogonal Frequency Division Multiple Access)
   * Optimisé pour les environnements denses
 
-<img src="https://raw.githubusercontent.com/No-Name-Academy/Networking-for-noobs/refs/heads/main/1-1-Materiel-physique/Sources/03-006.svg">
-
 ### Les autres technologies sans fil
 
 #### Le Bluetooth
@@ -231,7 +229,7 @@ L'évolution des réseaux mobiles illustre les progrès constants des technologi
 - Support d'un grand nombre d'appareils connectés
 - Utilisation de différentes bandes de fréquences selon les besoins
 
-## 3.5 Les connecteurs et leurs caractéristiques
+## 2.5 Les connecteurs et leurs caractéristiques
 
 Les connecteurs sont souvent négligés mais sont pourtant cruciaux pour la qualité de la transmission.
 

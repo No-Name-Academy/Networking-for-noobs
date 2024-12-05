@@ -1,6 +1,6 @@
-# 2. La couche physique du modèle OSI
+## 2. La couche physique du modèle OSI
 
-## 2.1 Introduction au modèle OSI et la couche physique
+### 2.1 Introduction au modèle OSI et la couche physique
 
 La couche physique constitue le fondement même de toute communication réseau. C'est la première couche du modèle OSI, qui en compte sept au total. Pour bien comprendre son rôle, visualisons d'abord sa place dans l'architecture globale.
 
@@ -15,7 +15,7 @@ La couche physique est responsable de la transmission brute des bits sur un cana
 - La topologie physique du réseau
 - Le mode de transmission (simplex, half-duplex, full-duplex)
 
-### Principes fondamentaux
+#### Principes fondamentaux
 
 La couche physique transforme les données numériques en signaux qui peuvent être transmis sur le support physique. Cette transformation peut prendre plusieurs formes :
 
@@ -34,11 +34,11 @@ La couche physique transforme les données numériques en signaux qui peuvent ê
    - Différentes techniques de modulation
    - Diverses puissances d'émission
 
-## 2.2 Les supports de transmission physiques
+### 2.2 Les supports de transmission physiques
 
 L'évolution des supports de transmission physiques reflète l'histoire des réseaux informatiques. Chaque type de support répond à des besoins spécifiques et présente ses propres caractéristiques en termes de performance, de coût et de facilité d'installation.
 
-### Le câble coaxial : l'ancêtre robuste
+#### Le câble coaxial : l'ancêtre robuste
 
 Le câble coaxial, bien qu'aujourd'hui moins utilisé dans les réseaux informatiques, reste un exemple parfait pour comprendre la structure d'un support de transmission.
 
@@ -57,7 +57,7 @@ Cette structure ingénieuse permet de :
 2. Transporter des signaux sur de plus longues distances
 3. Maintenir une meilleure qualité de signal
 
-### La paire torsadée : le standard actuel
+#### La paire torsadée : le standard actuel
 
 La paire torsadée a révolutionné le câblage réseau en offrant un excellent compromis entre performance, coût et facilité d'installation. Son principe repose sur l'entrelacement de paires de fils qui permet de réduire naturellement les interférences.
 
@@ -88,13 +88,13 @@ Les catégories de paires torsadées se sont succédé, chacune apportant des am
    - Utilisée dans les centres de données
 
 
-## 2.3 La fibre optique : la révolution optique
+### 2.3 La fibre optique : la révolution optique
 
 La fibre optique représente une avancée majeure dans les technologies de transmission, utilisant la lumière plutôt que l'électricité pour transporter les données. Cette technologie a révolutionné les télécommunications en permettant des débits jusqu'alors inimaginables sur de très longues distances.
 
 <img src="https://raw.githubusercontent.com/No-Name-Academy/Networking-for-noobs/refs/heads/main/1-1-Materiel-physique/Sources/03-004.svg">
 
-### Structure et principes de fonctionnement
+#### Structure et principes de fonctionnement
 
 La fibre optique est constituée de plusieurs couches concentriques, chacune ayant un rôle spécifique :
 
@@ -116,11 +116,11 @@ La fibre optique est constituée de plusieurs couches concentriques, chacune aya
    - Identification par code couleur
    - Facilite la manipulation
 
-### Types de fibres optiques
+#### Types de fibres optiques
 
 Il existe deux grandes catégories de fibres optiques, chacune adaptée à des usages spécifiques :
 
-#### La fibre monomode (SMF - Single Mode Fiber)
+##### La fibre monomode (SMF - Single Mode Fiber)
 
 - Cœur très fin (8 à 10 microns)
 - Un seul rayon lumineux
@@ -130,7 +130,7 @@ Il existe deux grandes catégories de fibres optiques, chacune adaptée à des u
   * Réseaux métropolitains
   * Connexions entre datacenters
 
-#### La fibre multimode (MMF - Multi Mode Fiber)
+##### La fibre multimode (MMF - Multi Mode Fiber)
 
 - Cœur plus large (50 ou 62,5 microns)
 - Plusieurs rayons lumineux simultanés
@@ -140,7 +140,7 @@ Il existe deux grandes catégories de fibres optiques, chacune adaptée à des u
   * Réseaux locaux haute performance
   * Connexions courte distance en datacenter
 
-### Avantages et limitations
+#### Avantages et limitations
 
 La fibre optique présente de nombreux avantages :
 
@@ -157,11 +157,11 @@ Mais elle comporte aussi quelques contraintes :
 - Fragilité relative nécessitant des précautions
 - Équipements actifs plus onéreux
 
-## 2.4 Les technologies sans fil : la mobilité avant tout
+### 2.4 Les technologies sans fil : la mobilité avant tout
 
 Les technologies sans fil ont révolutionné notre façon d'utiliser les réseaux en supprimant la contrainte des câbles. Elles utilisent les ondes électromagnétiques pour transporter l'information à travers l'air.
 
-### Les fondamentaux de la transmission sans fil
+#### Les fondamentaux de la transmission sans fil
 
 La transmission sans fil repose sur plusieurs concepts essentiels :
 
@@ -178,9 +178,9 @@ La transmission sans fil repose sur plusieurs concepts essentiels :
    - Modulation de phase (PM)
    - Modulations complexes combinant plusieurs techniques
 
-### Les principales technologies
+#### Les principales technologies
 
-#### Le Wi-Fi (IEEE 802.11)
+##### Le Wi-Fi (IEEE 802.11)
 
 Le Wi-Fi est devenu incontournable dans nos vies quotidiennes. Son évolution montre l'amélioration constante des performances :
 
@@ -209,9 +209,9 @@ Le Wi-Fi est devenu incontournable dans nos vies quotidiennes. Son évolution mo
   * OFDMA (Orthogonal Frequency Division Multiple Access)
   * Optimisé pour les environnements denses
 
-### Les autres technologies sans fil
+#### Les autres technologies sans fil
 
-#### Le Bluetooth
+##### Le Bluetooth
 
 Conçu pour les communications à courte portée, le Bluetooth est devenu essentiel pour les périphériques :
 
@@ -220,7 +220,7 @@ Conçu pour les communications à courte portée, le Bluetooth est devenu essent
 - Idéal pour les périphériques mobiles
 - Bande de fréquence 2,4 GHz
 
-#### La 5G et les réseaux mobiles
+##### La 5G et les réseaux mobiles
 
 L'évolution des réseaux mobiles illustre les progrès constants des technologies sans fil :
 
@@ -229,13 +229,13 @@ L'évolution des réseaux mobiles illustre les progrès constants des technologi
 - Support d'un grand nombre d'appareils connectés
 - Utilisation de différentes bandes de fréquences selon les besoins
 
-## 2.5 Les connecteurs et leurs caractéristiques
+### 2.5 Les connecteurs et leurs caractéristiques
 
 Les connecteurs sont souvent négligés mais sont pourtant cruciaux pour la qualité de la transmission.
 
 <img src="https://raw.githubusercontent.com/No-Name-Academy/Networking-for-noobs/refs/heads/main/1-1-Materiel-physique/Sources/03-007.svg">
 
-### Principaux types de connecteurs
+#### Principaux types de connecteurs
 
 1. **Connecteurs cuivre**
    - RJ45 : le plus commun pour l'Ethernet

@@ -1,10 +1,10 @@
-# 3. La transmission de l'information
+## 3. La transmission de l'information
 
-## 3.1 Principes de base de la transmission des signaux
+### 3.1 Principes de base de la transmission des signaux
 
 La transmission des données numériques n'est pas aussi simple qu'il n'y paraît. Ce que nous percevons comme des "0" et des "1" doit être converti en signaux physiques qui peuvent voyager à travers différents supports de transmission.
 
-### Les bases de la transmission numérique
+#### Les bases de la transmission numérique
 
 Une donnée numérique peut être transmise de plusieurs façons :
 
@@ -29,7 +29,7 @@ Une donnée numérique peut être transmise de plusieurs façons :
   * Sensible aux interférences et aux obstacles
   * Base des technologies sans fil
 
-### Les techniques de codage
+#### Les techniques de codage
 
 Il existe plusieurs façons de coder l'information pour la rendre plus fiable lors de sa transmission :
 
@@ -70,11 +70,11 @@ Il existe plusieurs façons de coder l'information pour la rendre plus fiable lo
      * Plus complexe à décoder
      * Nécessite une électronique plus sophistiquée
 
-## 3.2 Gestion des perturbations et qualité du signal
+### 3.2 Gestion des perturbations et qualité du signal
 
 La transmission de données numériques dans le monde réel fait face à de nombreux défis. Même le meilleur système de transmission doit composer avec différentes formes de perturbations qui peuvent dégrader la qualité du signal.
 
-### Les types de perturbations fondamentales
+#### Les types de perturbations fondamentales
 
 <img src="https://raw.githubusercontent.com/No-Name-Academy/Networking-for-noobs/refs/heads/main/1-1-Materiel-physique/Sources/04-001.svg">
 
@@ -84,7 +84,7 @@ La diaphonie constitue un second défi majeur, particulièrement présent dans l
 
 Le bruit électromagnétique représente une troisième source majeure de perturbations. Notre environnement moderne est saturé d'ondes électromagnétiques provenant de diverses sources : téléphones mobiles, moteurs électriques, éclairages, et bien d'autres équipements. Ces perturbations peuvent s'introduire dans nos systèmes de transmission et altérer les signaux. Les effets peuvent aller d'une légère distorsion à une corruption complète des données. La lutte contre le bruit électromagnétique passe par plusieurs stratégies : le blindage des câbles, bien sûr, mais aussi une mise à la terre soignée des équipements et un routage intelligent des câbles pour éviter les sources de perturbations les plus importantes.
 
-### Les solutions modernes
+#### Les solutions modernes
 
 Face à ces défis, les technologies modernes de transmission ont développé des stratégies sophistiquées. L'égalisation du signal, par exemple, permet de compenser les distorsions en appliquant des corrections qui restaurent la forme originale du signal. C'est un peu comme un égaliseur audio qui ajusterait automatiquement différentes fréquences pour obtenir le meilleur son possible.
 

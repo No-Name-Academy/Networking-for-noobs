@@ -398,7 +398,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Etape 1 - Requête dns retour" id="_m2XFYjw8_WFeBX7PEmK">
-    <mxGraphModel dx="660" dy="396" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1386" dy="832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0RxbeGTwUb1KZg9XyrM9-0" />
         <mxCell id="0RxbeGTwUb1KZg9XyrM9-1" parent="0RxbeGTwUb1KZg9XyrM9-0" />
@@ -550,38 +550,26 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0RxbeGTwUb1KZg9XyrM9-47" value="pc0 veut accéder au site web https://noname.academy" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Handlee;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DHandlee;fontColor=default;fontStyle=0;strokeColor=default;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="0RxbeGTwUb1KZg9XyrM9-1">
-          <mxGeometry x="451.5" y="1020" width="158.5" height="30" as="geometry" />
+        <mxCell id="0RxbeGTwUb1KZg9XyrM9-48" value="pc0 lit la réponse dns et met à jour sa base de donnée dns&lt;div&gt;noname.academy = 66.15.21.55&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontFamily=Handlee;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DHandlee;fontColor=default;fontStyle=0;strokeColor=default;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="0RxbeGTwUb1KZg9XyrM9-1">
+          <mxGeometry x="441.5" y="960" width="228.5" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="0RxbeGTwUb1KZg9XyrM9-48" value="pc0 interroge sa table DNS pour savoir s&#39;il a déjà l&#39;entrée, sinon, il fait une requête" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontFamily=Handlee;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DHandlee;fontColor=default;fontStyle=0;strokeColor=default;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="0RxbeGTwUb1KZg9XyrM9-1">
-          <mxGeometry x="451.5" y="960" width="228.5" height="30" as="geometry" />
+        <mxCell id="0RxbeGTwUb1KZg9XyrM9-50" value="16." style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Handlee;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DHandlee;sketch=1;curveFitting=1;jiggle=2;fontStyle=1;strokeWidth=0.4;" vertex="1" parent="0RxbeGTwUb1KZg9XyrM9-1">
+          <mxGeometry x="430" y="975" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="0RxbeGTwUb1KZg9XyrM9-49" value="1." style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Handlee;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DHandlee;sketch=1;curveFitting=1;jiggle=2;fontStyle=1;strokeWidth=0.4;" vertex="1" parent="0RxbeGTwUb1KZg9XyrM9-1">
-          <mxGeometry x="440" y="1025" width="20" height="20" as="geometry" />
+        <mxCell id="0RxbeGTwUb1KZg9XyrM9-51" value="pc0 reçoit la réponse dns sur son port udp/53&lt;div&gt;le port est ouvert car il attend une réponse dns&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontFamily=Handlee;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DHandlee;fontColor=default;fontStyle=0;strokeColor=default;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="0RxbeGTwUb1KZg9XyrM9-1">
+          <mxGeometry x="438.5" y="912" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0RxbeGTwUb1KZg9XyrM9-50" value="2." style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Handlee;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DHandlee;sketch=1;curveFitting=1;jiggle=2;fontStyle=1;strokeWidth=0.4;" vertex="1" parent="0RxbeGTwUb1KZg9XyrM9-1">
-          <mxGeometry x="440" y="965" width="20" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="0RxbeGTwUb1KZg9XyrM9-51" value="pc0 regarde sa configuration ip pour connaître son serveur dns préféré à intérroger:&lt;div&gt;ip: 172.20.1.10&lt;/div&gt;&lt;div&gt;masque: 255.255.255.0&lt;/div&gt;&lt;div&gt;passerelle: 172.20.1.254&lt;/div&gt;&lt;div&gt;dns: 1.1.1.1&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontFamily=Handlee;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DHandlee;fontColor=default;fontStyle=0;strokeColor=default;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="0RxbeGTwUb1KZg9XyrM9-1">
-          <mxGeometry x="450" y="850" width="230" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="0RxbeGTwUb1KZg9XyrM9-52" value="3." style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Handlee;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DHandlee;sketch=1;curveFitting=1;jiggle=2;fontStyle=1;strokeWidth=0.4;" vertex="1" parent="0RxbeGTwUb1KZg9XyrM9-1">
-          <mxGeometry x="440" y="885" width="20" height="20" as="geometry" />
+        <mxCell id="0RxbeGTwUb1KZg9XyrM9-52" value="15." style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Handlee;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DHandlee;sketch=1;curveFitting=1;jiggle=2;fontStyle=1;strokeWidth=0.4;" vertex="1" parent="0RxbeGTwUb1KZg9XyrM9-1">
+          <mxGeometry x="427" y="917" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="0RxbeGTwUb1KZg9XyrM9-55" value="&lt;i&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;int gi1/12&lt;/font&gt;&lt;/i&gt;&lt;div&gt;&lt;i&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;pvid vlan 10&lt;/font&gt;&lt;/i&gt;&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontFamily=Handlee;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DHandlee;arcSize=18;strokeColor=#005073;fillColor=#D4E1F5;fontColor=#005073;strokeWidth=0.5;fontSize=10;" vertex="1" parent="0RxbeGTwUb1KZg9XyrM9-1">
           <mxGeometry x="365.25" y="802.5" width="46.5" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="0RxbeGTwUb1KZg9XyrM9-56" value="pc0 envoie une requête dns query &quot;noname.academy&quot; vers 1.1.1.1 à sa passerelle par défaut 172.20.1.254 à travers le réseau" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontFamily=Handlee;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DHandlee;fontColor=default;fontStyle=0;strokeColor=default;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="0RxbeGTwUb1KZg9XyrM9-1">
-          <mxGeometry x="156" y="872.5" width="230" height="45" as="geometry" />
+        <mxCell id="0RxbeGTwUb1KZg9XyrM9-58" value="En arrivant au switch d&#39;accès, le paquet est ouvert jusqu&#39;à la couche 2. Il vérifie s&#39;il à une correspondance MAC, et le renvoie sur l&#39;interface gi1/12 en enlevant le tag vlan" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontFamily=Handlee;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DHandlee;fontColor=default;fontStyle=0;strokeColor=default;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="0RxbeGTwUb1KZg9XyrM9-1">
+          <mxGeometry x="406" y="710" width="294" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="0RxbeGTwUb1KZg9XyrM9-57" value="5." style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Handlee;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DHandlee;sketch=1;curveFitting=1;jiggle=2;fontStyle=1;strokeWidth=0.4;" vertex="1" parent="0RxbeGTwUb1KZg9XyrM9-1">
-          <mxGeometry x="373.5" y="885" width="20" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="0RxbeGTwUb1KZg9XyrM9-58" value="En arrivant au switch d&#39;accès, le paquet est ouvert jusqu&#39;à la couche 2,&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontFamily=Handlee;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DHandlee;fontColor=default;fontStyle=0;strokeColor=default;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="0RxbeGTwUb1KZg9XyrM9-1">
-          <mxGeometry x="418.75" y="790" width="261.25" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="0RxbeGTwUb1KZg9XyrM9-59" value="6." style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Handlee;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DHandlee;sketch=1;curveFitting=1;jiggle=2;fontStyle=1;strokeWidth=0.4;" vertex="1" parent="0RxbeGTwUb1KZg9XyrM9-1">
-          <mxGeometry x="351" y="774.5" width="20" height="20" as="geometry" />
+        <mxCell id="0RxbeGTwUb1KZg9XyrM9-59" value="14." style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Handlee;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DHandlee;sketch=1;curveFitting=1;jiggle=2;fontStyle=1;strokeWidth=0.4;" vertex="1" parent="0RxbeGTwUb1KZg9XyrM9-1">
+          <mxGeometry x="394.75" y="750" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="0RxbeGTwUb1KZg9XyrM9-60" value="Le switch nwcs0 reçoit le paquet sur son adresse ip 172.20.15.253, il l&#39;ouvre jusqu&#39;à la couche 3&lt;div&gt;source 1.1.1.1 destination 172.20.1.10&lt;/div&gt;&lt;div&gt;il vérifie s&#39;il sait joindre ce réseau&lt;/div&gt;&lt;div&gt;il a une correspondance (route connectée sur int vlan10)&lt;/div&gt;&lt;div&gt;En envoie le paquet sur le réseau avec le tag vlan 10&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontFamily=Handlee;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DHandlee;fontColor=default;fontStyle=0;strokeColor=default;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="0RxbeGTwUb1KZg9XyrM9-1">
           <mxGeometry x="331" y="545" width="327.5" height="100" as="geometry" />

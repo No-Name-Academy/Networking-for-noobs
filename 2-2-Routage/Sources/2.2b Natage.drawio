@@ -397,8 +397,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="Copie de Etape 1 - Requête dns aller" id="_m2XFYjw8_WFeBX7PEmK">
-    <mxGraphModel dx="1386" dy="832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram name="Etape 1 - Requête dns retour" id="_m2XFYjw8_WFeBX7PEmK">
+    <mxGraphModel dx="660" dy="396" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0RxbeGTwUb1KZg9XyrM9-0" />
         <mxCell id="0RxbeGTwUb1KZg9XyrM9-1" parent="0RxbeGTwUb1KZg9XyrM9-0" />
@@ -510,7 +510,7 @@
           <mxGeometry x="580" y="90" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0RxbeGTwUb1KZg9XyrM9-36" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Vlan INTERCO 250&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Handlee;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DHandlee;fontStyle=0;fontColor=#FF99CC;" vertex="1" parent="0RxbeGTwUb1KZg9XyrM9-1">
-          <mxGeometry x="340" y="435" width="111.5" height="20" as="geometry" />
+          <mxGeometry x="315" y="520" width="111.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="0RxbeGTwUb1KZg9XyrM9-37" value="erbx1nwcs0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontFamily=Handlee;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DHandlee;arcSize=42;strokeColor=#005073;fillColor=#D4E1F5;fontColor=#005073;strokeWidth=1;" vertex="1" parent="0RxbeGTwUb1KZg9XyrM9-1">
           <mxGeometry x="280" y="575" width="60" height="20" as="geometry" />
@@ -589,35 +589,23 @@
         <mxCell id="0RxbeGTwUb1KZg9XyrM9-59" value="6." style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Handlee;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DHandlee;sketch=1;curveFitting=1;jiggle=2;fontStyle=1;strokeWidth=0.4;" vertex="1" parent="0RxbeGTwUb1KZg9XyrM9-1">
           <mxGeometry x="351" y="774.5" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="0RxbeGTwUb1KZg9XyrM9-60" value="En arrivant au switch L3, le paquet est ouvert, le tag vlan 10 l&#39;oriente vers l&#39;interface vlan 10" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontFamily=Handlee;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DHandlee;fontColor=default;fontStyle=0;strokeColor=default;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="0RxbeGTwUb1KZg9XyrM9-1">
+        <mxCell id="0RxbeGTwUb1KZg9XyrM9-60" value="Le switch nwcs0 reçoit le paquet sur son adresse ip 172.20.15.253, il l&#39;ouvre jusqu&#39;à la couche 3&lt;div&gt;source 1.1.1.1 destination 172.20.1.10&lt;/div&gt;&lt;div&gt;il vérifie s&#39;il sait joindre ce réseau&lt;/div&gt;&lt;div&gt;il a une correspondance (route connectée sur int vlan10&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontFamily=Handlee;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DHandlee;fontColor=default;fontStyle=0;strokeColor=default;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="0RxbeGTwUb1KZg9XyrM9-1">
           <mxGeometry x="332.5" y="619" width="245" height="29" as="geometry" />
         </mxCell>
         <mxCell id="0RxbeGTwUb1KZg9XyrM9-61" value="7." style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Handlee;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DHandlee;sketch=1;curveFitting=1;jiggle=2;fontStyle=1;strokeWidth=0.4;align=center;" vertex="1" parent="0RxbeGTwUb1KZg9XyrM9-1">
           <mxGeometry x="320" y="623.5" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="0RxbeGTwUb1KZg9XyrM9-62" value="Le switch nwcs0 est niveau 3&lt;div&gt;il desencapsule le paquet jusqu&#39;à la couche ip.&lt;div&gt;source 172.20.1.10 destination 1.1.1.1&lt;/div&gt;&lt;div&gt;il vérifie s&#39;il est connecté directement au réseau 1.1.1.1&lt;/div&gt;&lt;div&gt;sinon il vérifie s&#39;il à une route vers ce réseau&lt;/div&gt;&lt;div&gt;route 0.0.0.0/0 172.20.15.254&lt;/div&gt;&lt;div&gt;Il envoi le paquet vers le prochain saut 172.20.10.15.254&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontFamily=Handlee;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DHandlee;fontColor=default;fontStyle=0;strokeColor=default;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="0RxbeGTwUb1KZg9XyrM9-1">
-          <mxGeometry x="344.74" y="490" width="285.26" height="104" as="geometry" />
+        <mxCell id="0RxbeGTwUb1KZg9XyrM9-62" value="Le parefeu nwfw0 doit envoyer un paquet à l&#39;adresse 172.20.1.10. Il vérifie s&#39;il sait joindre ce réseau (route connectée, route statiques, route par défaut)&lt;div&gt;Il a une correspondance (route retour):&lt;/div&gt;&lt;div&gt;route 172.20.0.0/20 172.20.15.253&lt;/div&gt;&lt;div&gt;Il envoie le paquet à l&#39;adresse 172.20.15.253&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontFamily=Handlee;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DHandlee;fontColor=default;fontStyle=0;strokeColor=default;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="0RxbeGTwUb1KZg9XyrM9-1">
+          <mxGeometry x="307.37" y="420" width="285.26" height="94" as="geometry" />
         </mxCell>
         <mxCell id="0RxbeGTwUb1KZg9XyrM9-63" value="8." style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Handlee;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DHandlee;sketch=1;curveFitting=1;jiggle=2;fontStyle=1;strokeWidth=0.4;align=center;" vertex="1" parent="0RxbeGTwUb1KZg9XyrM9-1">
-          <mxGeometry x="332.5" y="559.5" width="20" height="20" as="geometry" />
+          <mxGeometry x="295" y="420" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="0RxbeGTwUb1KZg9XyrM9-64" value="le parefeu nwfw0 reçoit le paquet transféré depuis nwcs0.&lt;div&gt;il l&#39;ouvre jusqu&#39;à la couche 4&lt;/div&gt;&lt;div&gt;source udp/172.20.1.10:53 destination udp/1.1.1.1:53&lt;/div&gt;&lt;div&gt;Il vérifie dans ses règles de filtrage s&#39;il doit laisser passer le paquet.&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontFamily=Handlee;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DHandlee;fontColor=default;fontStyle=0;strokeColor=default;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="0RxbeGTwUb1KZg9XyrM9-1">
-          <mxGeometry x="40" y="160" width="330" height="70" as="geometry" />
+        <mxCell id="0RxbeGTwUb1KZg9XyrM9-64" value="le parefeu nwfw0 reçoit le paquet réponse de 1.1.1.1&lt;div&gt;il arrive sur son port dynamique temporaire udp 45001&lt;/div&gt;&lt;div&gt;la correspondance entre udp:45001 OUT et udp:53 IN existe, il transforme le paquet&lt;/div&gt;&lt;div&gt;source udp/1.1.1.1:53&lt;/div&gt;&lt;div&gt;destination udp/172.20.1.10:53&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontFamily=Handlee;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DHandlee;fontColor=default;fontStyle=0;strokeColor=default;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="0RxbeGTwUb1KZg9XyrM9-1">
+          <mxGeometry x="40" y="160" width="330" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="0RxbeGTwUb1KZg9XyrM9-65" value="8." style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Handlee;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DHandlee;sketch=1;curveFitting=1;jiggle=2;fontStyle=1;strokeWidth=0.4;align=center;" vertex="1" parent="0RxbeGTwUb1KZg9XyrM9-1">
+        <mxCell id="0RxbeGTwUb1KZg9XyrM9-65" value="11." style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Handlee;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DHandlee;sketch=1;curveFitting=1;jiggle=2;fontStyle=1;strokeWidth=0.4;align=center;" vertex="1" parent="0RxbeGTwUb1KZg9XyrM9-1">
           <mxGeometry x="328.74" y="150" width="20" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="0RxbeGTwUb1KZg9XyrM9-66" value="&lt;div&gt;Si oui, il regarde les règles de transfert,&lt;/div&gt;&lt;div&gt;et s&#39;il doit masquer l&#39;adresse ip (faire du PAT)&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=top;whiteSpace=wrap;rounded=1;fontFamily=Handlee;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DHandlee;fontColor=default;fontStyle=0;strokeColor=default;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="0RxbeGTwUb1KZg9XyrM9-1">
-          <mxGeometry x="335" y="224" width="230" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="0RxbeGTwUb1KZg9XyrM9-67" value="&lt;div&gt;Si oui, il va attribuer un port dynamique temporaire&lt;/div&gt;&lt;div&gt;au paquet sur son ip publique udp/9.36.121.6:45001&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=top;whiteSpace=wrap;rounded=1;fontFamily=Handlee;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DHandlee;fontColor=default;fontStyle=0;strokeColor=default;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="0RxbeGTwUb1KZg9XyrM9-1">
-          <mxGeometry x="496.5" y="261" width="265" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="0RxbeGTwUb1KZg9XyrM9-68" value="8.1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Handlee;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DHandlee;sketch=1;curveFitting=1;jiggle=2;fontStyle=1;strokeWidth=0.4;align=center;" vertex="1" parent="0RxbeGTwUb1KZg9XyrM9-1">
-          <mxGeometry x="322.74" y="223" width="20" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="0RxbeGTwUb1KZg9XyrM9-69" value="8.2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Handlee;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DHandlee;sketch=1;curveFitting=1;jiggle=2;fontStyle=1;strokeWidth=0.4;align=center;" vertex="1" parent="0RxbeGTwUb1KZg9XyrM9-1">
-          <mxGeometry x="488" y="259" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="0RxbeGTwUb1KZg9XyrM9-70" value="&lt;div&gt;source udp/9.36.12.6:45001 destination udp/1.1.1.1:53&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=top;whiteSpace=wrap;rounded=1;fontFamily=Handlee;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DHandlee;fontColor=default;fontStyle=0;strokeColor=default;sketch=1;curveFitting=1;jiggle=2;fontSize=9;strokeWidth=0.3;" vertex="1" parent="0RxbeGTwUb1KZg9XyrM9-1">
           <mxGeometry x="347.75" y="284" width="120" height="30" as="geometry" />

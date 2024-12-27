@@ -7,14 +7,20 @@
         <mxCell id="g8nlz1YEUuVs06bVKRiG-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="30" y="30" width="760" height="1110" as="geometry" />
         </mxCell>
-        <mxCell id="g8nlz1YEUuVs06bVKRiG-32" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="280" y="40" width="500" height="480" as="geometry" />
-        </mxCell>
-        <mxCell id="g8nlz1YEUuVs06bVKRiG-30" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="g8nlz1YEUuVs06bVKRiG-30" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;rotation=0.5;" vertex="1" parent="1">
           <mxGeometry x="92.5" y="530" width="657.5" height="570" as="geometry" />
         </mxCell>
+        <mxCell id="g8nlz1YEUuVs06bVKRiG-35" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#007FFF;glass=0;sketch=1;curveFitting=1;jiggle=2;arcSize=7;rotation=359;" vertex="1" parent="1">
+          <mxGeometry x="119.74" y="600" width="570" height="469.65" as="geometry" />
+        </mxCell>
         <mxCell id="g8nlz1YEUuVs06bVKRiG-28" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="40" y="350" width="230" height="140" as="geometry" />
+          <mxGeometry x="40" y="350" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="g8nlz1YEUuVs06bVKRiG-37" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="220" y="430" width="240" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="g8nlz1YEUuVs06bVKRiG-32" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="280" y="40" width="500" height="410" as="geometry" />
         </mxCell>
         <mxCell id="g8nlz1YEUuVs06bVKRiG-2" value="" style="sketch=0;points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0],[0.145,0.145,0],[0.8555,0.145,0],[0.855,0.8555,0],[0.145,0.855,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=router;fillColor=#FAFAFA;strokeColor=#005073;" vertex="1" parent="1">
           <mxGeometry x="240" y="290" width="50" height="50" as="geometry" />
@@ -101,7 +107,16 @@
           <mxGeometry x="590" y="90" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="g8nlz1YEUuVs06bVKRiG-34" value="Zone LAN&lt;div&gt;IPs privées (172.20.0.0/20)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Handlee;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DHandlee;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="470" y="620" width="240" height="150" as="geometry" />
+          <mxGeometry x="440" y="542.5" width="250" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="g8nlz1YEUuVs06bVKRiG-36" value="&lt;div&gt;Segmentation Virtual LAN (VLANs)&lt;/div&gt;&lt;div&gt;VLAN 10 :&lt;/div&gt;&lt;div&gt;Réseau: 172.20.1.0/24&lt;/div&gt;&lt;div&gt;Passerelle (interface vlan10 sur NWCS0): 172.20.1.254&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;VLAN 20 :&lt;/div&gt;&lt;div&gt;&lt;div&gt;Réseau: 172.20.2.0/24&lt;/div&gt;&lt;div&gt;Passerelle (interface vlan20 sur NWCS0): 172.20.2.126&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;VLAN 25 :&lt;/div&gt;&lt;div&gt;&lt;div&gt;Réseau: 172.20.2.128/24&lt;/div&gt;&lt;div&gt;Passerelle (interface vlan10 sur NWCS0): 172.20.2.254&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;VLAN 100 :&lt;/div&gt;&lt;div&gt;&lt;div&gt;Réseau: 172.20.0.0/24&lt;/div&gt;&lt;div&gt;Passerelle (interface vlan10 sur NWCS0): 172.20.0.254&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Handlee;fontSource=https://fonts.googleapis.com/css?family=Handlee;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="430" y="680" width="260" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="g8nlz1YEUuVs06bVKRiG-38" value="Vlan interconnexion (INTERCO)&lt;div&gt;id 250&lt;/div&gt;&lt;div&gt;Réseau 172.20.15.248/29&lt;/div&gt;&lt;div&gt;ip nwcs0 172.20.15.253&lt;/div&gt;&lt;div&gt;ip nwfw0 172.20.15.254&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Handlee;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DHandlee;fontStyle=0;fontColor=#FF99CC;" vertex="1" parent="1">
+          <mxGeometry x="270" y="455" width="246.5" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="g8nlz1YEUuVs06bVKRiG-39" value="erbx1nwcs0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="600" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

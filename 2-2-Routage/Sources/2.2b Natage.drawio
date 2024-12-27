@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.3">
   <diagram name="Page-1" id="MqaCjXYqGKVmv7oqq1TP">
-    <mxGraphModel dx="1386" dy="832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="554" dy="333" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -115,8 +115,8 @@
         <mxCell id="g8nlz1YEUuVs06bVKRiG-38" value="Vlan interconnexion (INTERCO)&lt;div&gt;id 250&lt;/div&gt;&lt;div&gt;Réseau 172.20.15.248/29&lt;/div&gt;&lt;div&gt;ip nwcs0 172.20.15.253&lt;/div&gt;&lt;div&gt;ip nwfw0 172.20.15.254&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Handlee;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DHandlee;fontStyle=0;fontColor=#FF99CC;" vertex="1" parent="1">
           <mxGeometry x="270" y="455" width="246.5" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="g8nlz1YEUuVs06bVKRiG-39" value="erbx1nwcs0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="380" y="600" width="60" height="30" as="geometry" />
+        <mxCell id="g8nlz1YEUuVs06bVKRiG-39" value="erbx1nwcs0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontFamily=Handlee;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DHandlee;arcSize=42;strokeColor=#005073;fillColor=#D4E1F5;fontColor=#005073;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="575" width="60" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

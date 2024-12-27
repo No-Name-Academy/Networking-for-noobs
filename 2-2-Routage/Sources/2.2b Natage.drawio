@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.3">
-  <diagram name="Page-1" id="MqaCjXYqGKVmv7oqq1TP">
-    <mxGraphModel dx="1540" dy="924" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram name="Général" id="MqaCjXYqGKVmv7oqq1TP">
+    <mxGraphModel dx="729" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -134,7 +134,10 @@
           <mxGeometry x="235" y="555" width="60" height="10" as="geometry" />
         </mxCell>
         <mxCell id="g8nlz1YEUuVs06bVKRiG-46" value="&lt;i&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;int vlan10&lt;/font&gt;&lt;/i&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; 172.20.1.254&lt;div&gt;&lt;i&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;int vlan20&lt;/font&gt;&lt;/i&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;172.20.2.126&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;i&gt;int vlan25&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/i&gt;&lt;/font&gt;172.20.2.254&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;i&gt;int vlan100&lt;/i&gt;&lt;/font&gt;&amp;nbsp; &amp;nbsp; 172.20.0.254&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontFamily=Handlee;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DHandlee;arcSize=18;strokeColor=#005073;fillColor=#D4E1F5;fontColor=#005073;strokeWidth=0.5;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="280" y="600" width="110" height="50" as="geometry" />
+          <mxGeometry x="210" y="606" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="g8nlz1YEUuVs06bVKRiG-47" value="9.36.121.6" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontFamily=Handlee;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DHandlee;arcSize=42;strokeColor=#005073;fillColor=#D4E1F5;fontColor=#005073;strokeWidth=0.5;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="240" y="380" width="50" height="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

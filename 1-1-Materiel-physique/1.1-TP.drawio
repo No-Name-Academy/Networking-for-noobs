@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="26.0.2">
   <diagram name="Page-1" id="H9irVcF_rrNOjkgV-mIr">
-    <mxGraphModel dx="862" dy="2304" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="499" dy="1334" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -40,10 +40,10 @@
         <mxCell id="5xNo_FaIS-vA76P3_rJ1-1" value="" style="html=1;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;shadow=0;dashed=0;shape=mxgraph.rack.hpe_aruba.switches.r0x43a_aruba_6400_24p_sfp_4sfp56_module;points=[[0.36,0.8,0,0,0],[0.4,0.8,0,0,0],[0.5,0.8,0,0,0],[0.54,0.8,0,0,0],[0.65,0.8,0,0,0],[0.69,0.8,0,0,0]];" parent="dl8DAiWBKm6dLVGj8xog-10" vertex="1">
           <mxGeometry x="33" y="81" width="162" height="15" as="geometry" />
         </mxCell>
-        <mxCell id="dl8DAiWBKm6dLVGj8xog-12" value="" style="html=1;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;shadow=0;dashed=0;shape=mxgraph.rack.hpe_aruba.switches.j9781a_2530_48_front;" parent="dl8DAiWBKm6dLVGj8xog-10" vertex="1">
+        <mxCell id="dl8DAiWBKm6dLVGj8xog-12" value="" style="html=1;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;shadow=0;dashed=0;shape=mxgraph.rack.hpe_aruba.switches.j9781a_2530_48_front;points=[[0.12,0.2,0,0,0],[0.16,0.2,0,0,0],[0.19,0.2,0,0,0],[0.23,0.2,0,0,0],[0.26,0.2,0,0,0],[0.29,0.2,0,0,0],[0.33,0.2,0,0,0],[0.36,0.2,0,0,0],[0.4,0.2,0,0,0],[0.43,0.2,0,0,0],[0.47,0.2,0,0,0],[0.5,0.2,0,0,0],[0.54,0.2,0,0,0],[0.57,0.2,0,0,0],[0.6,0.2,0,0,0],[0.64,0.2,0,0,0],[0.67,0.2,0,0,0],[0.71,0.2,0,0,0],[0.74,0.2,0,0,0],[0.78,0.2,0,0,0],[0.81,0.2,0,0,0],[0.85,0.2,0,0,0],[0.88,0.2,0,0,0]];" parent="dl8DAiWBKm6dLVGj8xog-10" vertex="1">
           <mxGeometry x="33" y="111" width="162" height="15" as="geometry" />
         </mxCell>
-        <mxCell id="dl8DAiWBKm6dLVGj8xog-15" value="" style="html=1;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;shadow=0;dashed=0;shape=mxgraph.rack.hpe_aruba.switches.j9781a_2530_48_front;" parent="dl8DAiWBKm6dLVGj8xog-10" vertex="1">
+        <mxCell id="dl8DAiWBKm6dLVGj8xog-15" value="" style="html=1;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;shadow=0;dashed=0;shape=mxgraph.rack.hpe_aruba.switches.j9781a_2530_48_front;points=[[0.1,0.8,0,0,0],[0.14,0.8,0,0,0],[0.17,0.8,0,0,0],[0.21,0.8,0,0,0],[0.24,0.8,0,0,0],[0.28,0.8,0,0,0],[0.31,0.8,0,0,0],[0.34,0.8,0,0,0],[0.38,0.8,0,0,0],[0.41,0.8,0,0,0],[0.45,0.8,0,0,0],[0.48,0.8,0,0,0],[0.52,0.8,0,0,0],[0.55,0.8,0,0,0],[0.59,0.8,0,0,0],[0.62,0.8,0,0,0],[0.66,0.8,0,0,0],[0.69,0.8,0,0,0],[0.72,0.8,0,0,0],[0.76,0.8,0,0,0],[0.79,0.8,0,0,0],[0.83,0.8,0,0,0],[0.86,0.8,0,0,0],[0.9,0.8,0,0,0]];" parent="dl8DAiWBKm6dLVGj8xog-10" vertex="1">
           <mxGeometry x="33" y="126" width="162" height="15" as="geometry" />
         </mxCell>
         <mxCell id="dl8DAiWBKm6dLVGj8xog-23" value="" style="group" parent="dl8DAiWBKm6dLVGj8xog-10" vertex="1" connectable="0">

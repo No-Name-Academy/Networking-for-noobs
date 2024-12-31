@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="26.0.2">
   <diagram name="Page-1" id="H9irVcF_rrNOjkgV-mIr">
-    <mxGraphModel dx="454" dy="1502" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="954" dy="1868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -67,8 +67,14 @@
         <mxCell id="dl8DAiWBKm6dLVGj8xog-13" value="" style="shape=mxgraph.rack.apc.apc_smart_ups_5000_va_5u;html=1;labelPosition=right;align=left;spacingLeft=15;dashed=0;shadow=0;fillColor=#ffffff;" parent="dl8DAiWBKm6dLVGj8xog-10" vertex="1">
           <mxGeometry x="33" y="271" width="162" height="74" as="geometry" />
         </mxCell>
-        <mxCell id="5xNo_FaIS-vA76P3_rJ1-4" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;" vertex="1" parent="1">
+        <mxCell id="5xNo_FaIS-vA76P3_rJ1-4" value="Bandeaux de brassage" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontColor=#4D4D4D;" vertex="1" parent="1">
           <mxGeometry x="62" y="-370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5xNo_FaIS-vA76P3_rJ1-6" value="Coeur de reseau modulaire&lt;div&gt;2 x 24 SFP+&lt;/div&gt;&lt;div&gt;2 x 48 Gigabit Eth.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="62" y="-310" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5xNo_FaIS-vA76P3_rJ1-7" value="Onduleur batterie&lt;div&gt;x 2&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="62" y="-190" width="120" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

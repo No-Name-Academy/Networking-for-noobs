@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="26.0.2">
   <diagram name="Page-1" id="H9irVcF_rrNOjkgV-mIr">
-    <mxGraphModel dx="954" dy="1868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="545" dy="1568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -75,6 +75,15 @@
         </mxCell>
         <mxCell id="5xNo_FaIS-vA76P3_rJ1-7" value="Onduleur batterie&lt;div&gt;x 2&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontColor=#4D4D4D;" vertex="1" parent="1">
           <mxGeometry x="62" y="-190" width="120" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="5xNo_FaIS-vA76P3_rJ1-8" value="Bandeaux de brassage" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="180" y="170" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5xNo_FaIS-vA76P3_rJ1-9" value="Switch d&#39;acces" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="180" y="200" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5xNo_FaIS-vA76P3_rJ1-10" value="Onduleur batterie" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="180" y="220" width="120" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

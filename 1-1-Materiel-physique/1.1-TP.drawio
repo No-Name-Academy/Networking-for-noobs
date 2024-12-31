@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="26.0.2">
   <diagram name="Page-1" id="H9irVcF_rrNOjkgV-mIr">
-    <mxGraphModel dx="545" dy="1568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="926" dy="1267" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="dl8DAiWBKm6dLVGj8xog-1" value="" style="strokeColor=#666666;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;outlineConnect=0;shadow=0;dashed=0;shape=mxgraph.rackGeneral.rackCabinet3;fillColor2=#f4f4f4;container=1;collapsible=0;childLayout=rack;allowGaps=1;marginLeft=33;marginRight=9;marginTop=21;marginBottom=22;textColor=#666666;numDisp=ascend;" parent="1" vertex="1">
-          <mxGeometry x="300" y="150" width="204" height="160" as="geometry" />
+          <mxGeometry x="520" y="650" width="204" height="160" as="geometry" />
         </mxCell>
         <mxCell id="dl8DAiWBKm6dLVGj8xog-4" value="" style="strokeColor=#666666;html=1;labelPosition=right;align=left;spacingLeft=15;shadow=0;dashed=0;outlineConnect=0;shape=mxgraph.rack.general.cat5e_enhanced_patch_panel_48_ports;" parent="dl8DAiWBKm6dLVGj8xog-1" vertex="1">
           <mxGeometry x="33" y="21" width="162" height="30" as="geometry" />
@@ -17,7 +17,7 @@
           <mxGeometry x="33" y="66" width="162" height="74" as="geometry" />
         </mxCell>
         <mxCell id="dl8DAiWBKm6dLVGj8xog-6" value="" style="strokeColor=#666666;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;outlineConnect=0;shadow=0;dashed=0;shape=mxgraph.rackGeneral.rackCabinet3;fillColor2=#f4f4f4;container=1;collapsible=0;childLayout=rack;allowGaps=1;marginLeft=33;marginRight=9;marginTop=21;marginBottom=22;textColor=#666666;numDisp=ascend;" parent="1" vertex="1">
-          <mxGeometry x="550" y="150" width="204" height="160" as="geometry" />
+          <mxGeometry x="520" y="920" width="204" height="160" as="geometry" />
         </mxCell>
         <mxCell id="dl8DAiWBKm6dLVGj8xog-7" value="" style="strokeColor=#666666;html=1;labelPosition=right;align=left;spacingLeft=15;shadow=0;dashed=0;outlineConnect=0;shape=mxgraph.rack.general.cat5e_enhanced_patch_panel_48_ports;" parent="dl8DAiWBKm6dLVGj8xog-6" vertex="1">
           <mxGeometry x="33" y="21" width="162" height="30" as="geometry" />
@@ -29,7 +29,7 @@
           <mxGeometry x="33" y="66" width="162" height="74" as="geometry" />
         </mxCell>
         <mxCell id="dl8DAiWBKm6dLVGj8xog-10" value="" style="strokeColor=#666666;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;outlineConnect=0;shadow=0;dashed=0;shape=mxgraph.rackGeneral.rackCabinet3;fillColor2=#f4f4f4;container=1;collapsible=0;childLayout=rack;allowGaps=1;marginLeft=33;marginRight=9;marginTop=21;marginBottom=22;textColor=#666666;numDisp=ascend;" parent="1" vertex="1">
-          <mxGeometry x="182" y="-390" width="204" height="370" as="geometry" />
+          <mxGeometry x="520" y="130" width="204" height="370" as="geometry" />
         </mxCell>
         <mxCell id="dl8DAiWBKm6dLVGj8xog-11" value="" style="strokeColor=#666666;html=1;labelPosition=right;align=left;spacingLeft=15;shadow=0;dashed=0;outlineConnect=0;shape=mxgraph.rack.general.cat5e_enhanced_patch_panel_48_ports;" parent="dl8DAiWBKm6dLVGj8xog-10" vertex="1">
           <mxGeometry x="33" y="21" width="162" height="30" as="geometry" />
@@ -37,7 +37,7 @@
         <mxCell id="dl8DAiWBKm6dLVGj8xog-14" value="" style="strokeColor=#666666;html=1;labelPosition=right;align=left;spacingLeft=15;shadow=0;dashed=0;outlineConnect=0;shape=mxgraph.rack.general.cat5e_enhanced_patch_panel_48_ports;" parent="dl8DAiWBKm6dLVGj8xog-10" vertex="1">
           <mxGeometry x="33" y="51" width="162" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="5xNo_FaIS-vA76P3_rJ1-1" value="" style="html=1;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;shadow=0;dashed=0;shape=mxgraph.rack.hpe_aruba.switches.r0x43a_aruba_6400_24p_sfp_4sfp56_module;" vertex="1" parent="dl8DAiWBKm6dLVGj8xog-10">
+        <mxCell id="5xNo_FaIS-vA76P3_rJ1-1" value="" style="html=1;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;shadow=0;dashed=0;shape=mxgraph.rack.hpe_aruba.switches.r0x43a_aruba_6400_24p_sfp_4sfp56_module;" parent="dl8DAiWBKm6dLVGj8xog-10" vertex="1">
           <mxGeometry x="33" y="81" width="162" height="15" as="geometry" />
         </mxCell>
         <mxCell id="dl8DAiWBKm6dLVGj8xog-12" value="" style="html=1;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;shadow=0;dashed=0;shape=mxgraph.rack.hpe_aruba.switches.j9781a_2530_48_front;" parent="dl8DAiWBKm6dLVGj8xog-10" vertex="1">
@@ -58,32 +58,32 @@
         <mxCell id="dl8DAiWBKm6dLVGj8xog-18" value="" style="html=1;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;shadow=0;dashed=0;shape=mxgraph.rack.hpe_aruba.switches.j9830b_5400r_2750w_poeplus_zl2_power_supply;" parent="dl8DAiWBKm6dLVGj8xog-23" vertex="1">
           <mxGeometry x="71" y="6.5" width="70" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="5xNo_FaIS-vA76P3_rJ1-3" value="" style="shape=mxgraph.rack.apc.apc_smart_ups_5000_va_5u;html=1;labelPosition=right;align=left;spacingLeft=15;dashed=0;shadow=0;fillColor=#ffffff;" vertex="1" parent="dl8DAiWBKm6dLVGj8xog-10">
+        <mxCell id="5xNo_FaIS-vA76P3_rJ1-3" value="" style="shape=mxgraph.rack.apc.apc_smart_ups_5000_va_5u;html=1;labelPosition=right;align=left;spacingLeft=15;dashed=0;shadow=0;fillColor=#ffffff;" parent="dl8DAiWBKm6dLVGj8xog-10" vertex="1">
           <mxGeometry x="33" y="197" width="162" height="74" as="geometry" />
         </mxCell>
-        <mxCell id="5xNo_FaIS-vA76P3_rJ1-2" value="" style="html=1;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;shadow=0;dashed=0;shape=mxgraph.rack.hpe_aruba.switches.r0x43a_aruba_6400_24p_sfp_4sfp56_module;" vertex="1" parent="dl8DAiWBKm6dLVGj8xog-10">
+        <mxCell id="5xNo_FaIS-vA76P3_rJ1-2" value="" style="html=1;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;shadow=0;dashed=0;shape=mxgraph.rack.hpe_aruba.switches.r0x43a_aruba_6400_24p_sfp_4sfp56_module;" parent="dl8DAiWBKm6dLVGj8xog-10" vertex="1">
           <mxGeometry x="33" y="96" width="162" height="15" as="geometry" />
         </mxCell>
         <mxCell id="dl8DAiWBKm6dLVGj8xog-13" value="" style="shape=mxgraph.rack.apc.apc_smart_ups_5000_va_5u;html=1;labelPosition=right;align=left;spacingLeft=15;dashed=0;shadow=0;fillColor=#ffffff;" parent="dl8DAiWBKm6dLVGj8xog-10" vertex="1">
           <mxGeometry x="33" y="271" width="162" height="74" as="geometry" />
         </mxCell>
-        <mxCell id="5xNo_FaIS-vA76P3_rJ1-4" value="Bandeaux de brassage" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontColor=#4D4D4D;" vertex="1" parent="1">
-          <mxGeometry x="62" y="-370" width="120" height="60" as="geometry" />
+        <mxCell id="5xNo_FaIS-vA76P3_rJ1-4" value="Bandeaux de brassage" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontColor=#4D4D4D;" parent="1" vertex="1">
+          <mxGeometry x="400" y="150" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5xNo_FaIS-vA76P3_rJ1-6" value="Coeur de reseau modulaire&lt;div&gt;2 x 24 SFP+&lt;/div&gt;&lt;div&gt;2 x 48 Gigabit Eth.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontColor=#4D4D4D;" vertex="1" parent="1">
-          <mxGeometry x="62" y="-310" width="120" height="120" as="geometry" />
+        <mxCell id="5xNo_FaIS-vA76P3_rJ1-6" value="Coeur de reseau modulaire&lt;div&gt;2 x 24 SFP+&lt;/div&gt;&lt;div&gt;2 x 48 Gigabit Eth.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontColor=#4D4D4D;" parent="1" vertex="1">
+          <mxGeometry x="400" y="210" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="5xNo_FaIS-vA76P3_rJ1-7" value="Onduleur batterie&lt;div&gt;x 2&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontColor=#4D4D4D;" vertex="1" parent="1">
-          <mxGeometry x="62" y="-190" width="120" height="150" as="geometry" />
+        <mxCell id="5xNo_FaIS-vA76P3_rJ1-7" value="Onduleur batterie&lt;div&gt;x 2&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontColor=#4D4D4D;" parent="1" vertex="1">
+          <mxGeometry x="400" y="330" width="120" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="5xNo_FaIS-vA76P3_rJ1-8" value="Bandeaux de brassage" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontColor=#4D4D4D;" vertex="1" parent="1">
-          <mxGeometry x="180" y="170" width="120" height="30" as="geometry" />
+        <mxCell id="5xNo_FaIS-vA76P3_rJ1-8" value="Bandeaux de brassage" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontColor=#4D4D4D;" parent="1" vertex="1">
+          <mxGeometry x="400" y="670" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="5xNo_FaIS-vA76P3_rJ1-9" value="Switch d&#39;acces" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontColor=#4D4D4D;" vertex="1" parent="1">
-          <mxGeometry x="180" y="200" width="120" height="20" as="geometry" />
+        <mxCell id="5xNo_FaIS-vA76P3_rJ1-9" value="Switch d&#39;acces" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontColor=#4D4D4D;" parent="1" vertex="1">
+          <mxGeometry x="400" y="700" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5xNo_FaIS-vA76P3_rJ1-10" value="Onduleur batterie" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontColor=#4D4D4D;" vertex="1" parent="1">
-          <mxGeometry x="180" y="220" width="120" height="70" as="geometry" />
+        <mxCell id="5xNo_FaIS-vA76P3_rJ1-10" value="Onduleur batterie" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontColor=#4D4D4D;" parent="1" vertex="1">
+          <mxGeometry x="400" y="720" width="120" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

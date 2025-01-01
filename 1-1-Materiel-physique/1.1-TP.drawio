@@ -1,9 +1,18 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="26.0.2">
   <diagram name="Page-1" id="H9irVcF_rrNOjkgV-mIr">
-    <mxGraphModel dx="490" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="677" dy="1810" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="9j41Xf2RF-thWnLo52nP-37" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=default;fillColor=#ffe6cc;arcSize=3;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="40" y="900" width="690" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="9j41Xf2RF-thWnLo52nP-36" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=default;fillColor=#dae8fc;arcSize=3;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="40" y="630" width="690" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="9j41Xf2RF-thWnLo52nP-35" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=default;fillColor=#d5e8d4;arcSize=3;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="690" height="450" as="geometry" />
+        </mxCell>
         <mxCell id="dl8DAiWBKm6dLVGj8xog-1" value="" style="strokeColor=#666666;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;outlineConnect=0;shadow=0;dashed=0;shape=mxgraph.rackGeneral.rackCabinet3;fillColor2=#f4f4f4;container=1;collapsible=0;childLayout=rack;allowGaps=1;marginLeft=33;marginRight=9;marginTop=21;marginBottom=22;textColor=#666666;numDisp=ascend;" parent="1" vertex="1">
           <mxGeometry x="520" y="650" width="204" height="160" as="geometry" />
         </mxCell>
@@ -206,6 +215,15 @@
               <mxPoint x="780" y="961" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="9j41Xf2RF-thWnLo52nP-38" value="Salle serveur" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="70" y="90" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9j41Xf2RF-thWnLo52nP-39" value="Bureaux" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="70" y="640" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9j41Xf2RF-thWnLo52nP-40" value="Atelier fabrication" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="70" y="910" width="380" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

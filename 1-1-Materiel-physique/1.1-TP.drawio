@@ -292,12 +292,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="S_8FBqEWUYSpQVulksUU" name="Plan physique">
-    <mxGraphModel dx="765" dy="1816" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1257" dy="1063" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="0fhq6JTLAvQjIUdSAwFy-7" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="10" y="-3.460000000000001" width="1640" height="1155" as="geometry" />
+          <mxGeometry x="10" y="7.5" width="1640" height="1155" as="geometry" />
         </mxCell>
         <mxCell id="j9tZ-ss8oP2DByefkztP-14" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;shape=mxgraph.floorplan.stairsRest;rotation=-90;" parent="1" vertex="1">
           <mxGeometry x="490" y="80" width="180" height="110" as="geometry" />

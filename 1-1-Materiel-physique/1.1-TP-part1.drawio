@@ -786,6 +786,15 @@
         <mxCell id="6-rm9t5bN7YUsvyjCWZc-3" value="1.1 - TP fil rouge - Partie 1 - Annexe 4 - Topologie logique" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CC99FF;strokeColor=#9673a6;fontColor=#FFFFFF;fontSize=14;fontStyle=1" vertex="1" parent="6-rm9t5bN7YUsvyjCWZc-1">
           <mxGeometry x="60" y="40" width="710" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="7cVJcaybMMPzml7-3jjz-0" value="" style="sketch=0;points=[[0.015,0.015,0],[0.985,0.015,0],[0.985,0.985,0],[0.015,0.985,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=l3_switch;fillColor=#FAFAFA;strokeColor=#005073;" vertex="1" parent="6-rm9t5bN7YUsvyjCWZc-1">
+          <mxGeometry x="490" y="930" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7cVJcaybMMPzml7-3jjz-1" value="" style="sketch=0;points=[[0.015,0.015,0],[0.985,0.015,0],[0.985,0.985,0],[0.015,0.985,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=l2_switch;fillColor=#FAFAFA;strokeColor=#005073;" vertex="1" parent="6-rm9t5bN7YUsvyjCWZc-1">
+          <mxGeometry x="490" y="990" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7cVJcaybMMPzml7-3jjz-2" value="" style="sketch=0;points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0],[0.145,0.145,0],[0.8555,0.145,0],[0.855,0.8555,0],[0.145,0.855,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=router;fillColor=#FAFAFA;strokeColor=#005073;" vertex="1" parent="6-rm9t5bN7YUsvyjCWZc-1">
+          <mxGeometry x="490" y="870" width="50" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

@@ -554,11 +554,14 @@
         <mxCell id="1DokFSwdIkXXPAJwDzpu-1" value="1.1 - TP fil rouge - Partie 1 - Annexe 2 - Plan physique" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CC99FF;strokeColor=#9673a6;fontColor=#FFFFFF;fontSize=14;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="940" y="40" width="700" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="zH2yNSefM4DdAPFSCd5A-1" value="Future zone Supervision atelier" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;curveFitting=1;jiggle=2;fontSize=14;fontColor=#CC6600;labelBackgroundColor=default;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1180" y="490" width="350" height="200" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="Plan vierge" id="gUzmK0JFWRJJidp_Te3K">
-    <mxGraphModel dx="2756" dy="1658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2297" dy="1382" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="3THZG9wr-CD54BtZWU8w-0" />
         <mxCell id="3THZG9wr-CD54BtZWU8w-1" parent="3THZG9wr-CD54BtZWU8w-0" />
@@ -768,28 +771,6 @@
         </mxCell>
         <mxCell id="3THZG9wr-CD54BtZWU8w-70" value="Bureau SI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" vertex="1" parent="3THZG9wr-CD54BtZWU8w-1">
           <mxGeometry x="793.75" y="270" width="117.5" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="3THZG9wr-CD54BtZWU8w-71" value="" style="endArrow=none;html=1;rounded=0;entryX=0.2;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.8;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;strokeWidth=2;strokeColor=#FF9933;shape=link;" edge="1" parent="3THZG9wr-CD54BtZWU8w-1" source="3THZG9wr-CD54BtZWU8w-51" target="3THZG9wr-CD54BtZWU8w-41">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="460" y="510" as="sourcePoint" />
-            <mxPoint x="510" y="460" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="430" y="80" />
-              <mxPoint x="807" y="80" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3THZG9wr-CD54BtZWU8w-72" value="" style="endArrow=none;html=1;rounded=0;entryX=0.6;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.2;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;strokeWidth=2;strokeColor=#990099;shape=link;width=4.615384615384615;" edge="1" parent="3THZG9wr-CD54BtZWU8w-1" source="3THZG9wr-CD54BtZWU8w-73" target="3THZG9wr-CD54BtZWU8w-41">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="440" y="60" as="sourcePoint" />
-            <mxPoint x="817" y="70" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="350" y="500" />
-              <mxPoint x="430" y="500" />
-              <mxPoint x="430" y="110" />
-              <mxPoint x="831" y="110" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="3THZG9wr-CD54BtZWU8w-73" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;shape=mxgraph.floorplan.room;fillColor=#ffe6cc;strokeColor=#d79b00;points=[[0.2,0,0,0,0],[0.4,0,0,0,0],[0.6,0,0,0,0],[0.8,0,0,0,0]];" vertex="1" parent="3THZG9wr-CD54BtZWU8w-1">
           <mxGeometry x="340" y="690" width="50" height="40" as="geometry" />

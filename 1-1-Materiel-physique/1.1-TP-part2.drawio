@@ -753,13 +753,13 @@
         <mxCell id="w9mkR79nx1VCq2YzBR1f-3" value="Ateliers fabrication" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="630" y="660" width="155" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NcecpZPSmW7LZMny81eA-1" value="Unité fabrication 1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="NcecpZPSmW7LZMny81eA-1" value="Atelier fabrication 1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="140" y="900" width="155" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0fhq6JTLAvQjIUdSAwFy-1" value="Unité fabrication 2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="0fhq6JTLAvQjIUdSAwFy-1" value="Atelier fabrication 2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="580" y="900" width="155" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0fhq6JTLAvQjIUdSAwFy-2" value="Unité fabrication 3" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="0fhq6JTLAvQjIUdSAwFy-2" value="Atelier fabrication 3" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="1241" y="900" width="155" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0fhq6JTLAvQjIUdSAwFy-3" value="No Name Corp." style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">

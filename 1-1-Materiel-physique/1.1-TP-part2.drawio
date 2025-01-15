@@ -934,8 +934,8 @@
         <mxCell id="YSA-mXm2aA0poYSm5kAA-3" value="1.1 - TP fil rouge - Partie 2 - Annexe 3 - Tarifs Prestataire Sudo Engineering" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CC99FF;strokeColor=#9673a6;fontColor=#FFFFFF;fontSize=14;fontStyle=1" vertex="1" parent="YSA-mXm2aA0poYSm5kAA-1">
           <mxGeometry x="60" y="30" width="710" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7i_BbFQM_irGFzqMqAOf-0" value="Tarifs B2B Hors taxes&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Société Sudo Engineering SAS - 19 rue de la mairie LIMOGES&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="YSA-mXm2aA0poYSm5kAA-1">
-          <mxGeometry x="209" y="410" width="410" height="30" as="geometry" />
+        <mxCell id="7i_BbFQM_irGFzqMqAOf-0" value="Tarifs B2B Hors taxes&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Société Sudo Engineering SAS&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;19 rue de la mairie LIMOGES&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=24;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="YSA-mXm2aA0poYSm5kAA-1">
+          <mxGeometry x="209" y="410" width="410" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

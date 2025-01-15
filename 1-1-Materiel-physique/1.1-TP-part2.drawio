@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="26.0.5" pages="4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="26.0.5" pages="5">
   <diagram id="Zf8DWnAmfZFCOAY3EVG-" name="Sujet">
     <mxGraphModel dx="2026" dy="1192" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -919,6 +919,23 @@
         </mxCell>
         <mxCell id="v6BKCtHypesfE3aBw0QE-19" value="Baie réseau bur01" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="322.39" y="70" width="85.22" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Tarifs" id="_41SW2PrPd4CU3AERWZa">
+    <mxGraphModel dx="2026" dy="1192" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="YSA-mXm2aA0poYSm5kAA-0" />
+        <mxCell id="YSA-mXm2aA0poYSm5kAA-1" parent="YSA-mXm2aA0poYSm5kAA-0" />
+        <mxCell id="YSA-mXm2aA0poYSm5kAA-2" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=1;" vertex="1" parent="YSA-mXm2aA0poYSm5kAA-1">
+          <mxGeometry x="20" y="20" width="790" height="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="YSA-mXm2aA0poYSm5kAA-3" value="1.1 - TP fil rouge - Partie 2 - Annexe 3 - Tarifs Prestataire Sudo Engineering" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CC99FF;strokeColor=#9673a6;fontColor=#FFFFFF;fontSize=14;fontStyle=1" vertex="1" parent="YSA-mXm2aA0poYSm5kAA-1">
+          <mxGeometry x="60" y="30" width="710" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7i_BbFQM_irGFzqMqAOf-0" value="Tarifs B2B Hors taxes&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Société Sudo Engineering SAS - 19 rue de la mairie LIMOGES&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="YSA-mXm2aA0poYSm5kAA-1">
+          <mxGeometry x="209" y="410" width="410" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

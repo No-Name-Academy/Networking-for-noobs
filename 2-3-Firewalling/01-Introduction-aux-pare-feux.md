@@ -25,10 +25,6 @@ Il existe différents types de pare-feux, chacun adapté à des besoins spécifi
 * **Pare-feu basés sur le routage (hardware/software):** Ces pare-feux fonctionnent au niveau du réseau, analysant les adresses IP et les protocoles pour filtrer le trafic. Ils sont souvent utilisés dans les environnements d'entreprise ou les réseaux domestiques plus grands.
 * **Pare-feu d'application:** Ces pare-feux analysent le contenu des paquets de données, comme les fichiers et les messages, pour identifier les menaces spécifiques. Ils sont particulièrement efficaces pour bloquer les attaques ciblées sur des applications web ou des services spécifiques.
 
-
 ### 1.4 **Le Filtrage : Un Système Règles Rigides**
 
 Le principe du filtrage est au cœur du fonctionnement d'un pare-feu. Chaque pare-feu utilise un ensemble de règles prédefinies, appelées politiques de sécurité, pour déterminer quel trafic est autorisé et lequel est bloqué. Ces règles peuvent être basées sur divers critères, tels que l'adresse IP, le port, le protocole, l'heure ou même le contenu du message. Imaginez ces règles comme des "barrières" virtuelles qui définissent les accès autorisés à chaque zone de votre réseau.
-
-
-

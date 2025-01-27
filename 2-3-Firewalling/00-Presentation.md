@@ -1,8 +1,8 @@
 ### **Diapositive 1 : Titre**
 - **Titre** : Introduction aux Pare-feux et à la Sécurité des Réseaux
 - **Sous-titre** : Concepts et Technologies Essentiels
-- **Nom de l'enseignant**
-- **Date**
+- **Nom de l'enseignant** : Benoit-M. Monteil
+- **Date** : BTS CIEL 2025
 
 ---
 
